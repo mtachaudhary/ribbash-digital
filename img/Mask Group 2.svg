@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150.404" height="706" viewBox="0 0 1150.404 706">
+    <defs>
+        <linearGradient id="prefix__linear-gradient" x1=".791" x2=".224" y2=".646" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#3593e4"/>
+            <stop offset="1" stop-color="#2944c4"/>
+        </linearGradient>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Mask" d="M4.611 0h1141.183a4.61 4.61 0 0 1 4.61 4.611v696.778a4.61 4.61 0 0 1-4.61 4.611H4.611A4.611 4.611 0 0 1 0 701.389V4.611A4.611 4.611 0 0 1 4.611 0z"/>
+        </clipPath>
+        <style>
+            .prefix__cls-3{fill:#fff;opacity:.1;mix-blend-mode:soft-light;isolation:isolate}
+        </style>
+    </defs>
+    <g id="prefix__Mask_Group_2" data-name="Mask Group 2">
+        <g id="prefix__Group_3" data-name="Group 3" transform="translate(-1614.071 181.922)">
+            <path id="prefix__Rectangle" d="M0 52.106s465.977 229.128 1324.084 29.54 1324.084 29.54 1324.084 29.54l20.706 835.1-2648.168-59.08z" class="prefix__cls-3" transform="rotate(-12.04 3055.251 -3663.738)"/>
+            <path id="prefix__Rectangle_Copy" d="M5.108 199.71s-124.44 450.549 855.136-44.816 1642.112 355.851 1642.112 355.851l-22 449.127L.149 974.029z" class="prefix__cls-3" data-name="Rectangle Copy" transform="rotate(3 -1332.627 1008.93)"/>
+            <path id="prefix__Rectangle_Copy_2" d="M4.958 174.32s424.453 93.842 1234.515-113.7 1388.03 184.4 1388.03 184.4l-147.3 689.46L0 948.64z" class="prefix__cls-3" data-name="Rectangle Copy 2" transform="rotate(3 -1456.481 14785.247)"/>
+        </g>
+    </g>
+</svg>
