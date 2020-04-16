@@ -5,6 +5,10 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 }
 
+img {
+	max-width: 100%;
+}
+
 .rd-wrap a {
 	text-decoration: none;
 }
@@ -52,6 +56,15 @@ body {
 	font-size: 15px;
 	font-weight: normal;
 	color: #fff;
+}
+
+.rd-navmenu .nav-item {
+	display: -webkit-flex;
+	display: -ms-flex;
+    display: flex;
+    -webkit-align-items: center;
+    	-ms-align-items: center;
+    		align-items: center;
 }
 
 
@@ -141,6 +154,56 @@ body {
 	margin-top: 42px;
 }
 
+
+/* Mobile App section */
+.rd-image-box {
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.rd-mobile-app-bg {
+    background-image: url(../img/group-13630.svg);
+}
+.rd-fund-raising-bg {
+    background-image: url(../img/mask-group-17.jpg);
+}
+.rd-nomad-bg {
+    background-image: url(../img/group-13624.jpg);
+}
+.rd-onshor-bg {
+    background-image: url(../img/group-13622.jpg);
+    background-position: left bottom;
+}
+.rd-nobs-bg {
+    background-image: url(../img/group-13620.jpg);
+}
+
+.rd-mobile-app-img {
+	margin-right: -80px;
+}
+.rd-one-gift-img, .rd-onshor-img {
+	margin-left: -185px;
+}
+.rd-nomad-img, .rd-nobs-img {
+	margin-right: -185px;
+}
+
+.rd-content-box-wrap {
+    padding-top: 75px;
+	padding-bottom: 75px;
+	max-width: 440px;
+}
+
+.rd-content-box-right {
+	margin-left: 100px;
+	margin-right: auto;
+}
+.rd-content-box-left {
+	margin-right: 100px;
+	margin-left: auto;
+}
+
 /*Testimonial*/
 .rd-testimonial-box {
 	margin-top: 70px;
@@ -188,6 +251,10 @@ body {
 	object-fit: cover;
 }
 
+.rd-testimonial-logo-wrap {
+    min-height: 220px;
+}
+
 .rd-testimonial-card {
 	box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.08);
 	background-color: #ffffff;
@@ -203,6 +270,26 @@ body {
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 1.71;
+}
+
+/* Quotation Mark */
+.rd-quote-mark {
+	position: relative;
+	margin-top: 35px;
+}
+.rd-quote-mark::before {
+    content: '“';
+    display: block;
+    height: 30px;
+    opacity: 0.2;
+    font-size: 82px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.62;
+    color: #023d4d;
+    position: absolute;
+    bottom: calc(100% + 40px);
+    left: 0;
 }
 
 /*Footer*/
