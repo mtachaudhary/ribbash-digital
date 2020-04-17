@@ -5,6 +5,10 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 }
 
+figure {
+	margin-bottom: 0;
+}
+
 img {
 	max-width: 100%;
 }
@@ -152,6 +156,10 @@ img {
 
 .rd-services-button-wrap .rd-button {
 	margin-top: 42px;
+}
+
+.rd-service-img {
+	margin-bottom: 16px;
 }
 
 
@@ -440,7 +448,7 @@ img {
 
 /*Divider*/
 .rd-divider {
-	border: 1px solid rgba(255, 255, 255, 0.40);
+	border-bottom: 2px solid rgba(255, 255, 255, 0.40);
 }
 
 /* Contact Form */

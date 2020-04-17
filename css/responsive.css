@@ -1,0 +1,91 @@
+/* Responsive CSS */
+
+
+/* Breakpoint max-width 991px */
+@media only screen and (max-width: 991.98px) {
+    .rd-testimonial-logo-wrap {
+        min-height: 140px;
+    }
+
+    .rd-container-1170 {
+        max-width: 760px;
+        padding: 50px;
+    }
+}
+
+/* Breakpoint max-width 767px */
+@media only screen and (max-width: 767.98px) {
+    .rd-content-box-wrap {
+        max-width: 540px;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 0;
+    }
+
+    .rd-image-box {
+        padding-top: 100px;
+    }
+
+    .rd-mobile-app-img {
+        margin-right: 0;
+        margin-bottom: -60px;
+    }
+
+    .rd-one-gift-img, .rd-onshor-img {
+        margin-left: 0;
+        margin-bottom: -18%;
+    }
+
+    .rd-nomad-img, .rd-nobs-img {
+        margin-right: 0;
+        margin-bottom: -18%;
+    }
+
+    .rd-pt-65 {
+        padding-top: 40px;
+    }
+
+    .rd-pb-65 {
+        padding-bottom: 40px;
+    }
+}
+
+/* Breakpoint max-width 575px */
+@media only screen and (max-width: 575.98px) {
+    .rd-content-box-wrap {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+/* Breakpoint max-width 480px */
+@media only screen and (max-width: 480px) {
+
+    .rd-logo-text {
+        font-size: 24px;
+    }
+
+    /* Title */
+    .rd-title {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .rd-contact-form-box {
+        padding: 40px 20px;
+    }
+
+    .rd-footer-logo-text {
+        font-size: 34px;
+    }
+
+    .rd-clip-bg-bottom-right {
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    }
+
+    .rd-clip-bg-top-left {
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+    }
+}
