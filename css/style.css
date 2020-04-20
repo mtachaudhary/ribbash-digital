@@ -5,11 +5,11 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 }
 
-figure {
+.rd-wrap figure {
 	margin-bottom: 0;
 }
 
-img {
+.rd-wrap img {
 	max-width: 100%;
 }
 
@@ -18,8 +18,8 @@ img {
 }
 
 .rd-container-1170 {
-    max-width: 1170px;
-    margin: 0 auto;
+	max-width: 1170px;
+	margin: 0 auto;
 }
 
 /*Spacing*/
@@ -65,10 +65,10 @@ img {
 .rd-navmenu .nav-item {
 	display: -webkit-flex;
 	display: -ms-flex;
-    display: flex;
-    -webkit-align-items: center;
-    	-ms-align-items: center;
-    		align-items: center;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
 }
 
 
@@ -128,9 +128,65 @@ img {
 	line-height: 1.13;
 	border-radius: 5px;
 	background-color: rgba(255, 255, 255, 0.3);
-	border-color: rgba(255, 255, 255, 0.3);
+	/* border-color: rgba(255, 255, 255, 0.3); */
 	padding: 18px 45px;
+	overflow: hidden;
+	border: none;
 }
+.rd-button::before,
+.rd-button::after {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	 -ms-transition: all 0.4s ease-in-out;
+		 transition: all 0.4s ease-in-out;
+}
+
+
+/* ----------------- */
+/* Button Effects */
+/* ----------------- */
+
+/* Effect 1 */
+.rd-button-effect1 {
+	position: relative;
+	z-index: 11;
+}
+
+.rd-button-effect1:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.rd-button-effect1::before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.rd-button-effect1::after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 100%;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.rd-button-effect1:hover::before,
+.rd-button-effect1:hover::after {
+	width: 50%;
+	opacity: 1;
+	visibility: visible;
+}
+
 
 /*Banner section*/
 .rd-banner-section {
@@ -158,47 +214,61 @@ img {
 	margin-top: 42px;
 }
 
-.rd-service-img {
+.rd-services-card .rd-service-img {
 	margin-bottom: 16px;
 }
 
 
 /* Mobile App section */
 .rd-image-box {
+	position: relative;
 	background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
+	background-size: cover;
+	background-position: right bottom;
+}
+
+.rd-image-box figure {
+	margin-bottom: -20%;
 }
 
 .rd-mobile-app-bg {
-    background-image: url(../img/group-13630.svg);
+	background-image: url(../img/group-13630.svg);
 }
+
 .rd-fund-raising-bg {
-    background-image: url(../img/mask-group-17.jpg);
+	background-image: url(../img/mask-group-17.jpg);
+	background-position: left bottom;
 }
+
 .rd-nomad-bg {
-    background-image: url(../img/group-13624.jpg);
+	background-image: url(../img/group-13624.jpg);
 }
+
 .rd-onshor-bg {
-    background-image: url(../img/group-13622.jpg);
-    background-position: left bottom;
+	background-image: url(../img/group-13622.jpg);
+	background-position: left bottom;
 }
+
 .rd-nobs-bg {
-    background-image: url(../img/group-13620.jpg);
+	background-image: url(../img/group-13620.jpg);
 }
 
 .rd-mobile-app-img {
 	margin-right: -80px;
 }
-.rd-one-gift-img, .rd-onshor-img {
+
+.rd-one-gift-img,
+.rd-onshor-img {
 	margin-left: -185px;
 }
-.rd-nomad-img, .rd-nobs-img {
+
+.rd-nomad-img,
+.rd-nobs-img {
 	margin-right: -185px;
 }
 
 .rd-content-box-wrap {
-    padding-top: 75px;
+	padding-top: 75px;
 	padding-bottom: 75px;
 	max-width: 440px;
 }
@@ -207,6 +277,7 @@ img {
 	margin-left: 100px;
 	margin-right: auto;
 }
+
 .rd-content-box-left {
 	margin-right: 100px;
 	margin-left: auto;
@@ -260,7 +331,7 @@ img {
 }
 
 .rd-testimonial-logo-wrap {
-    min-height: 220px;
+	min-height: 220px;
 }
 
 .rd-testimonial-card {
@@ -285,19 +356,20 @@ img {
 	position: relative;
 	margin-top: 35px;
 }
+
 .rd-quote-mark::before {
-    content: '“';
-    display: block;
-    height: 30px;
-    opacity: 0.2;
-    font-size: 82px;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 1.62;
-    color: #023d4d;
-    position: absolute;
-    bottom: calc(100% + 40px);
-    left: 0;
+	content: '“';
+	display: block;
+	height: 30px;
+	opacity: 0.2;
+	font-size: 82px;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 1.62;
+	color: #023d4d;
+	position: absolute;
+	bottom: calc(100% + 40px);
+	left: 0;
 }
 
 /*Footer*/
@@ -460,15 +532,196 @@ img {
 	position: relative;
 	z-index: 1;
 }
+
 .rd-contact-form input {
 	height: 50px;
 }
-.rd-contact-form input, .rd-contact-form textarea {
+
+.rd-contact-form input,
+.rd-contact-form textarea {
 	border-radius: 2px;
 	box-shadow: 0 6px 10px 0 rgba(131, 134, 163, 0.12);
 	border: solid 1px #e0e3e7;
 	font-size: 14px;
 }
+
 .rd-contact-form .rd-button {
-    width: 230px;
+	width: 230px;
+}
+
+
+/* Banner Slider */
+#section-home {
+	position: relative;
+	height: 460px;
+	min-height: 400px;
+	/* margin-bottom: 20vh; */
+}
+
+#section-home .container-caroussel {
+	position: relative;
+	height: 100%;
+	/* min-height: 700px; */
+	-webkit-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+
+#section-home .container-caroussel .wrapper-container-el {
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+
+#section-home .container-caroussel .wrapper-container-el .container-el {
+	position: relative;
+}
+
+#section-home .container-caroussel>.btn {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	right: -100px;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	cursor: pointer;
+	opacity: 0;
+	-webkit-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+#section-home .container-caroussel>.btn.show {
+	opacity: 1;
+}
+
+#section-home .container-caroussel.show-qonto>.btn,
+#section-home .container-caroussel.show-marks>.btn,
+#section-home .container-caroussel.show-chauffeurprive>.btn,
+#section-home .container-caroussel.show-orangelabs>.btn,
+#section-home .container-caroussel.show-mondocteur>.btn,
+#section-home .container-caroussel.show-rydoo>.btn {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+#section-home .container-caroussel.show-lecollectionist>.btn,
+#section-home .container-caroussel.show-sendinblue>.btn {
+	background-color: rgba(54, 63, 84, 0.2);
+}
+
+#section-home .container-caroussel>.btn .arrow {
+	stroke: none !important;
+	height: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+
+#section-home .container-caroussel>.btn .progress {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 42px;
+	width: 42px;
+	-webkit-transform: translate(-50%, -50%) rotate(-90deg);
+	-ms-transform: translate(-50%, -50%) rotate(-90deg);
+	transform: translate(-50%, -50%) rotate(-90deg);
+	background-color: transparent;
+}
+
+#section-home .container-caroussel>.btn .progress circle:nth-child(1) {
+	fill: none !important;
+	stroke-width: 4px;
+	stroke-dasharray: 339.292;
+	stroke-dashoffset: 339.292;
+	-webkit-transition: stroke-dashoffset 0s ease;
+	-o-transition: stroke-dashoffset 0s ease;
+	transition: stroke-dashoffset 0s ease;
+}
+
+#section-home .container-caroussel>.btn .progress.active circle:nth-child(1) {
+	-webkit-transition: stroke-dashoffset 6s linear;
+	-o-transition: stroke-dashoffset 6s linear;
+	transition: stroke-dashoffset 6s linear;
+	stroke-dashoffset: 0;
+}
+
+#section-home .container-caroussel.show-qonto>.btn .arrow,
+#section-home .container-caroussel.show-qonto>.btn .progress circle {
+	fill: #FFF;
+	stroke: #FFF;
+}
+
+#section-home .container-caroussel.show-marks>.btn .arrow,
+#section-home .container-caroussel.show-marks>.btn .progress circle {
+	fill: #FFF;
+	stroke: #FFF;
+}
+
+#section-home .container-caroussel.show-chauffeurprive>.btn .arrow,
+#section-home .container-caroussel.show-chauffeurprive>.btn .progress circle {
+	fill: #FFF;
+	stroke: #FFF;
+}
+
+#section-home .container-caroussel.show-lecollectionist>.btn .arrow,
+#section-home .container-caroussel.show-lecollectionist>.btn .progress circle {
+	fill: #363F54;
+	stroke: #363F54;
+}
+
+#section-home .container-caroussel.show-orangelabs>.btn .arrow,
+#section-home .container-caroussel.show-orangelabs>.btn .progress circle {
+	fill: #FFF;
+	stroke: #FFF;
+}
+
+#section-home .container-caroussel.show-mondocteur>.btn .arrow,
+#section-home .container-caroussel.show-mondocteur>.btn .progress circle {
+	fill: #FFF;
+	stroke: #FFF;
+}
+
+#section-home .container-caroussel.show-rydoo>.btn .arrow,
+#section-home .container-caroussel.show-rydoo>.btn .progress circle {
+	fill: #FFF;
+	stroke: #FFF;
+}
+
+#section-home .container-caroussel.show-sendinblue>.btn .arrow,
+#section-home .container-caroussel.show-sendinblue>.btn .progress circle {
+	fill: #363F54;
+	stroke: #363F54;
+}
+
+
+/* Animation */
+.rd-swip-overlay {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+
+.rd-swip-overlay-right {
+	right: 0;
+}
+
+.rd-swip-overlay-left {
+	left: 0;
 }

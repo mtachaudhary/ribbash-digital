@@ -1,0 +1,134 @@
+#section-home {
+    position: relative;
+    height: 80vh;
+    min-height: 500px;
+    margin-bottom: 20vh;
+}
+#section-home .container-caroussel {
+    position: relative;
+    height: 100%;
+    /* min-height: 700px; */
+    -webkit-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+#section-home .container-caroussel .wrapper-container-el {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+#section-home .container-caroussel .wrapper-container-el .container-el {
+    position: relative;
+}
+
+#section-home .container-caroussel > .btn {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    right: -100px;
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+#section-home .container-caroussel > .btn.show {
+    opacity: 1;
+}
+#section-home .container-caroussel.show-qonto > .btn,
+#section-home .container-caroussel.show-marks > .btn,
+#section-home .container-caroussel.show-chauffeurprive > .btn,
+#section-home .container-caroussel.show-orangelabs > .btn,
+#section-home .container-caroussel.show-mondocteur > .btn,
+#section-home .container-caroussel.show-rydoo > .btn {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#section-home .container-caroussel.show-lecollectionist > .btn,
+#section-home .container-caroussel.show-sendinblue > .btn {
+    background-color: rgba(54, 63, 84, 0.2);
+}
+
+#section-home .container-caroussel > .btn .arrow {
+    stroke: none !important;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+#section-home .container-caroussel > .btn .progress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 38px;
+    width: 38px;
+    -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+    -ms-transform: translate(-50%, -50%) rotate(-90deg);
+    transform: translate(-50%, -50%) rotate(-90deg);
+}
+#section-home .container-caroussel > .btn .progress circle:nth-child(1) {
+    fill: none !important;
+    stroke-width: 4px;
+    stroke-dasharray: 339.292;
+    stroke-dashoffset: 339.292;
+    -webkit-transition: stroke-dashoffset 0s ease;
+    -o-transition: stroke-dashoffset 0s ease;
+    transition: stroke-dashoffset 0s ease;
+}
+#section-home .container-caroussel > .btn .progress.active circle:nth-child(1) {
+    -webkit-transition: stroke-dashoffset 6s linear;
+    -o-transition: stroke-dashoffset 6s linear;
+    transition: stroke-dashoffset 6s linear;
+    stroke-dashoffset: 0;
+}
+#section-home .container-caroussel.show-qonto > .btn .arrow,
+#section-home .container-caroussel.show-qonto > .btn .progress circle {
+    fill: #FFF;
+    stroke: #FFF;
+}
+#section-home .container-caroussel.show-marks > .btn .arrow,
+#section-home .container-caroussel.show-marks > .btn .progress circle {
+    fill: #FFF;
+    stroke: #FFF;
+}
+#section-home .container-caroussel.show-chauffeurprive > .btn .arrow,
+#section-home .container-caroussel.show-chauffeurprive > .btn .progress circle {
+    fill: #FFF;
+    stroke: #FFF;
+}
+#section-home .container-caroussel.show-lecollectionist > .btn .arrow,
+#section-home .container-caroussel.show-lecollectionist > .btn .progress circle {
+    fill: #363F54;
+    stroke: #363F54;
+}
+#section-home .container-caroussel.show-orangelabs > .btn .arrow,
+#section-home .container-caroussel.show-orangelabs > .btn .progress circle {
+    fill: #FFF;
+    stroke: #FFF;
+}
+#section-home .container-caroussel.show-mondocteur > .btn .arrow,
+#section-home .container-caroussel.show-mondocteur > .btn .progress circle {
+    fill: #FFF;
+    stroke: #FFF;
+}
+#section-home .container-caroussel.show-rydoo > .btn .arrow,
+#section-home .container-caroussel.show-rydoo > .btn .progress circle {
+    fill: #FFF;
+    stroke: #FFF;
+}
+#section-home .container-caroussel.show-sendinblue > .btn .arrow,
+#section-home .container-caroussel.show-sendinblue > .btn .progress circle {
+    fill: #363F54;
+    stroke: #363F54;
+}

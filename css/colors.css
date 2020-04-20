@@ -1,38 +1,58 @@
 /* CSS Document */
 
 /*Dark*/
-.rd-text-dark, .rd-copyright-footer a {
+.rd-text-dark,
+.rd-copyright-footer a {
 	color: #023d4d;
 }
-.rd-color-bg-dark, .rd-title-strip-dark::before {
+
+.rd-color-bg-dark,
+.rd-title-strip-dark::before,
+.rd-button-effect1::before,
+.rd-button-effect1::after {
 	background-color: #023d4d;
 }
 
 /*Green*/
-.rd-color-bg-green, .rd-title-strip-green::before {
+.rd-color-bg-green,
+.rd-title-strip-green::before {
 	background-color: #41b680;
 }
 
 /*Orange*/
-.rd-color-bg-orange, .rd-title-strip-orange::before {
+.rd-color-bg-orange,
+.rd-title-strip-orange::before,
+.rd-button.rd-color-bg-orange:hover {
 	background-color: #f16c1f;
 }
 
 /*yellow*/
-.rd-color-bg-yellow, .rd-title-strip-yellow::before {
+.rd-color-bg-yellow,
+.rd-title-strip-yellow::before,
+.rd-button.rd-color-bg-yellow:hover {
 	background-color: #fcba30;
 }
 
 /*red*/
-.rd-color-bg-red, .rd-title-strip-red::before {
+.rd-color-bg-red,
+.rd-title-strip-red::before,
+.rd-button.rd-color-bg-red:hover {
 	background-color: #f15d34;
 }
 
 /*White*/
-.rd-color-white, .rd-blog-title, .rd-blog-title a, .rd-button, .rd-footer-list li a {
+.rd-color-white,
+.rd-blog-title,
+.rd-blog-title a,
+.rd-button,
+.rd-footer-list li a,
+.rd-button-effect1:hover {
 	color: #fff;
 }
-.rd-color-bg-white, .rd-copyright-footer, .rd-contact-form-box {
+
+.rd-color-bg-white,
+.rd-copyright-footer,
+.rd-contact-form-box {
 	background-color: #fff;
 }
 
@@ -42,14 +62,16 @@
 /*----------------*/
 
 /* Green*/
-.rd-gradient-bg-green, .rd-title-strip-gradient-green::before {
+.rd-gradient-bg-green,
+.rd-title-strip-gradient-green::before {
 	background-image: -webkit-linear-gradient(105deg, #40b680, #0c9a8e);
 	background-image: -moz-linear-gradient(105deg, #40b680, #0c9a8e);
 	background-image: linear-gradient(105deg, #40b680, #0c9a8e);
 }
 
 /*Blue*/
-.rd-gradient-bg-blue, .rd-title-strip-blue::before {
+.rd-gradient-bg-blue,
+.rd-title-strip-blue::before {
 	background-image: -webkit-linear-gradient(256deg, #35acf4, #2638c4);
 	background-image: -moz-linear-gradient(256deg, #35acf4, #2638c4);
 	background-image: linear-gradient(256deg, #35acf4, #2638c4);
