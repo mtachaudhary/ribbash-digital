@@ -71,6 +71,17 @@ body {
 	align-items: center;
 }
 
+.rd-header-shrink .rd-navbar {
+    padding-top: 12px;
+	padding-bottom: 12px;
+	transition: all 0.3s ease-in-out;
+}
+
+.rd-header-shrink .rd-logo-text {
+	font-size: 30px;
+	transition: all 0.3s ease-in-out;
+}
+
 
 /*Title*/
 .rd-title {

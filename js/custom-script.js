@@ -48,4 +48,16 @@
 
     }).scroll();
 
+
+    // Add class to header on scroll
+    $(window).scroll(function() {    
+        var scroll = $(document).scrollTop();
+    
+        if (scroll >= 150) {
+            $(".rd-header").addClass("rd-header-shrink");
+        } else {
+            $(".rd-header").removeClass("rd-header-shrink");
+        }
+    });
+
 })(jQuery);

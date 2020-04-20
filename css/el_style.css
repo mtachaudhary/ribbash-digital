@@ -73,27 +73,30 @@
 .container-el.el-ly .el .container-illu .container-device .device.desktop .head .ptn
 {
 	position: absolute;
-	height: 5px;
-	width: 5px;
-	border-radius: 3px;
+	height: 6.5px;
+	width: 6.5px;
+	border-radius: 100%;
 	top: 50%;
-	background-color: #232426;
+	background-color: #dee2e6;
 	-webkit-transform: translateY(-50%);
 	    -ms-transform: translateY(-50%);
 	        transform: translateY(-50%);
-	opacity: 0.2;
+	/* opacity: 0.2; */
 }
 .container-el.el-ly .el .container-illu .container-device .device.desktop .head .ptn:nth-child(1)
 {
 	left: 6px;
+	background-color: #e76a58;
 }
 .container-el.el-ly .el .container-illu .container-device .device.desktop .head .ptn:nth-child(2)
 {
 	left: 16px;
+	background-color: #fec052
 }
 .container-el.el-ly .el .container-illu .container-device .device.desktop .head .ptn:nth-child(3)
 {
 	left: 26px;
+	background-color: #81d154
 }
 
 /* BROWSER */

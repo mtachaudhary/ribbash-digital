@@ -15,7 +15,8 @@
 
 /*Green*/
 .rd-color-bg-green,
-.rd-title-strip-green::before {
+.rd-title-strip-green::before,
+.rd-header-shrink {
 	background-color: #41b680;
 }
 
