@@ -1,5 +1,5 @@
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
 	font-family: 'Ubuntu', sans-serif;
@@ -361,6 +361,24 @@ body {
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 1.71;
+}
+
+.rd-testimonial-card-wide {
+    padding: 36px 100px;
+}
+
+.rd-testimonial-card-wide .rd-quote-mark::before {
+	bottom: calc(100% + 5px);
+    left: -70px;
+}
+
+.rd-testimonial-card-wide .rd-quote-mark {
+    margin-top: 0;
+}
+
+.rd-testimonial-card-wide .rd-testimonial-text {
+    font-size: 20px;
+    line-height: 1.75;
 }
 
 /* Quotation Mark */
@@ -741,8 +759,8 @@ body {
 /* Portfolio section */
 .rd-portfolio-banner-section {
 	background-image: linear-gradient(114deg, #40b680, #0c9a8e);
-    padding-top: 180px;
-    padding-bottom: 260px;
+	padding-top: 180px;
+	padding-bottom: 260px;
 }
 
 .rd-infobox-portfolio .rd-text {
@@ -780,7 +798,7 @@ body {
 	background-color: #e76a58;
 	border-radius: 100%;
 	-webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
 
@@ -801,81 +819,197 @@ body {
 
 .rd-browser-screen {
 	position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
 }
 
 .rd-browser-screen img {
 	position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
+	top: 0px;
+	left: 0px;
+	width: 100%;
 }
 
+
 /* Browser Animation */
-.rd-browser-screen:hover img
-{
-	-webkit-animation-duration:5s;
-	animation-duration:5s;
-	-webkit-animation-name:rdScrollCoverBrowser;
-	animation-name:rdScrollCoverBrowser; 
+.rd-browser-screen:hover img {
+	-webkit-animation-duration: 5s;
+	animation-duration: 5s;
+	-webkit-animation-name: rdScrollCoverBrowser;
+	animation-name: rdScrollCoverBrowser;
 	-webkit-animation-timing-function: cubic-bezier(1.000, 0.005, 0.305, 1.000);
-	animation-timing-function: cubic-bezier(1.000, 0.005, 0.305, 1.000); 
-	-webkit-animation-direction: alternate; 
-            animation-direction: alternate;
-    /* -webkit-animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(1.000, 0.005, 0.305, 1.000);
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	/* -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite; */
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
 }
-.rd-browser-screen img
-{
-	-webkit-animation-name:none;
-	animation-name:none; 
+
+.rd-browser-screen img {
+	-webkit-animation-name: none;
+	animation-name: none;
 }
 
 @keyframes rdScrollCoverBrowser {
 	10% {
 		-webkit-transform: translateY(0%);
-		    -ms-transform: translateY(0%);
-		        transform: translateY(0%);
+		-ms-transform: translateY(0%);
+		transform: translateY(0%);
 	}
 
 	50% {
 		-webkit-transform: translateY(-40%);
-		    -ms-transform: translateY(-40%);
-		        transform: translateY(-40%);
+		-ms-transform: translateY(-40%);
+		transform: translateY(-40%);
 	}
 
 	100% {
 		-webkit-transform: translateY(calc(-100% + 31px));
-		    -ms-transform: translateY(calc(-100% + 31px));
-		        transform: translateY(calc(-100% + 31px));
+		-ms-transform: translateY(calc(-100% + 31px));
+		transform: translateY(calc(-100% + 31px));
 	}
 }
 
 @-webkit-keyframes rdScrollCoverBrowser {
 	10% {
 		-webkit-transform: translateY(0%);
-		    -ms-transform: translateY(0%);
-		        transform: translateY(0%);
+		-ms-transform: translateY(0%);
+		transform: translateY(0%);
 	}
 
 	50% {
 		-webkit-transform: translateY(-40%);
-		    -ms-transform: translateY(-40%);
-		        transform: translateY(-40%);
+		-ms-transform: translateY(-40%);
+		transform: translateY(-40%);
 	}
 
 	100% {
 		-webkit-transform: translateY(calc(-100% + 31px));
-		    -ms-transform: translateY(calc(-100% + 31px));
-		        transform: translateY(calc(-100% + 31px));
+		-ms-transform: translateY(calc(-100% + 31px));
+		transform: translateY(calc(-100% + 31px));
 	}
 }
 
+
+/* Features Title */
+.rd-feature-title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.rd-features-list {
+    padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+	font-size: 30px;
+}
+
+.rd-features-list li {
+	position: relative;
+    margin-right: 30px;
+    display: inline;
+    margin-left: 12px;
+}
+
+.rd-features-list li:before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #41b680;
+    border-radius: 100%;
+    position: absolute;
+    left: -10px;
+    bottom: 8px;
+}
+
+
 /* Color Palette */
 .rd-color-palette {
+	text-align: center;
+}
+
+
+/* Typeface */
+.rd-typeface-roboto-bold, .rd-typeface-roboto-bold * {
+	font-family: Roboto;
+	font-weight: 700;
+}
+
+.rd-typeface-roboto-normal, .rd-typeface-roboto-normal * {
+	font-family: Roboto;
+	font-weight: 400;
+}
+
+.rd-typeface-roboto-helvetica, .rd-typeface-helvetica-normal * {
+	font-family: Helvetica;
+	font-weight: 300;
+}
+
+.rd-typeface-name,
+.rd-typeface-sample {
+	font-size: 30px;
+	letter-spacing: 0.9px;
+	line-height: 1;
+	margin-bottom: 0;
+}
+
+.rd-typeface-sample {
+    margin-top: 20px;
+}
+
+.rd-typeface-weight {
+	font-size: 17px;
+	line-height: 1.35;
+	letter-spacing: 0.51px;
+}
+
+
+/* Web Preview */
+.rd-infobox-web-preview {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid rgba(2, 61, 77, 0.3);
+    border-radius: 10px;
+	padding: 30px 15px;
+	min-height: 150px;
+}
+
+.rd-web-preview-banner {
+	margin-top: -50px;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.rd-web-preview {
+    margin-top: -190px;
+}
+
+.rd-web-preview-img {
     text-align: center;
+}
+
+/* .rd-web-straight-img img {
+	max-width: 770px;
+} */
+
+
+/* App Preview */
+.rd-app-preview-section {
+	padding: 50px 0 200px;
+}
+.rd-app-preview {
+    margin-top: -420px;
+}
+
+.rd-img-spacer {
+	margin-top: 100px;
+}
+
+.rd-app-ballons {
+    margin-top: -20px;
 }
