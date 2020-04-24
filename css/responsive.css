@@ -11,6 +11,36 @@
         max-width: 760px;
         padding: 50px;
     }
+
+    /* Banner progress slider */
+    .container-el.el-ly .el .container-illu {
+        height: 227px;
+        width: 339px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    #section-home .container-caroussel>.btn {
+        display: none;
+    }
+
+    #section-home {
+        height: 400px;
+    }
+
+    /* Browser Frame */
+    .rd-browser-frame {
+        height: 480px;
+    }
+
+    /* Features */
+    .rd-features-list {
+        font-size: 22px;
+    }
+
+    .rd-features-list li {
+        margin-right: 20px;
+    }
 }
 
 /* Breakpoint max-width 767px */
@@ -32,12 +62,14 @@
         margin-bottom: -60px;
     }
 
-    .rd-one-gift-img, .rd-onshor-img {
+    .rd-one-gift-img,
+    .rd-onshor-img {
         margin-left: 0;
         margin-bottom: -18%;
     }
 
-    .rd-nomad-img, .rd-nobs-img {
+    .rd-nomad-img,
+    .rd-nobs-img {
         margin-right: 0;
         margin-bottom: -18%;
     }
@@ -63,9 +95,11 @@
 /* Breakpoint max-width 480px */
 @media only screen and (max-width: 480px) {
 
+    /* Logo */
     .rd-logo-text {
         font-size: 24px;
     }
+
 
     /* Title */
     .rd-title {
@@ -87,5 +121,34 @@
 
     .rd-clip-bg-top-left {
         clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+    }
+
+
+    /* Home Banner slider */
+    .container-el.el-ly .el .desc,
+    .container-el.el-ly .el.mobile .desc {
+        width: 100%;
+    }
+
+    .container-el.el-ly .el .desc h2,
+    .container-el.el-ly .el .desc .container-p {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .container-el.el-ly .el .desc h2 {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .container-el.el-ly .el .desc .container-p p {
+        text-align: center;
+    }
+
+
+    /* Browser Frame */
+    .rd-browser-frame {
+        height: 320px;
     }
 }
