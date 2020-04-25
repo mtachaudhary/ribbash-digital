@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="167.821" height="151.109" viewBox="0 0 167.821 151.109">
+    <defs>
+        <filter id="prefix__Ellipse_211" width="151.109" height="151.109" x="16.712" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="10"/>
+            <feGaussianBlur result="blur" stdDeviation="12"/>
+            <feFlood flood-opacity=".188"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="prefix__Oval_Copy_2" width="91.445" height="91.445" x="0" y="7.539" filterUnits="userSpaceOnUse">
+            <feOffset dy="10"/>
+            <feGaussianBlur result="blur-2" stdDeviation="12"/>
+            <feFlood flood-opacity=".188"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-1{fill:#fcba30}
+        </style>
+    </defs>
+    <g id="prefix__Group_13605" data-name="Group 13605" transform="translate(-1296.219 -2010.891)">
+        <g transform="translate(1296.22 2010.89)">
+            <circle id="prefix__Ellipse_211-2" cx="39.554" cy="39.554" r="39.554" class="prefix__cls-1" data-name="Ellipse 211" transform="translate(52.71 26)"/>
+        </g>
+        <g transform="translate(1296.22 2010.89)">
+            <circle id="prefix__Oval_Copy_2-2" cx="7.117" cy="7.117" r="7.117" class="prefix__cls-1" data-name="Oval Copy 2" transform="rotate(120 15.982 36.334)"/>
+        </g>
+        <circle id="prefix__Oval_Copy_3" cx="3.192" cy="3.192" r="3.192" class="prefix__cls-1" data-name="Oval Copy 3" transform="rotate(120 90.457 1413.616)"/>
+    </g>
+</svg>

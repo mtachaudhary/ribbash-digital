@@ -758,9 +758,12 @@ body {
 
 /* Portfolio section */
 .rd-portfolio-banner-section {
-	background-image: linear-gradient(114deg, #40b680, #0c9a8e);
 	padding-top: 180px;
 	padding-bottom: 260px;
+}
+
+.rd-infobox .rd-infobox-img {
+    margin-bottom: 15px;
 }
 
 .rd-infobox-portfolio .rd-text {
@@ -993,17 +996,14 @@ body {
     text-align: center;
 }
 
-/* .rd-web-straight-img img {
-	max-width: 770px;
-} */
-
 
 /* App Preview */
 .rd-app-preview-section {
 	padding: 50px 0 200px;
 }
 .rd-app-preview {
-    margin-top: -420px;
+	margin-top: -420px;
+	text-align: center;
 }
 
 .rd-img-spacer {

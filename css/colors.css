@@ -84,3 +84,11 @@
 	background-image: -moz-linear-gradient(256deg, #35acf4, #2638c4);
 	background-image: linear-gradient(256deg, #35acf4, #2638c4);
 }
+
+
+/* Dark Blue */
+.rd-gradient-bg-dark-blue {
+	background-image: -webkit-linear-gradient(114deg, #003a81, #001d41);
+	background-image: -moz-linear-gradient(114deg, #003a81, #001d41);
+	background-image: linear-gradient(114deg, #003a81, #001d41);
+}

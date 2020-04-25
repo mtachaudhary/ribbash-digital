@@ -1,6 +1,19 @@
 /* Responsive CSS */
 
 
+/* Breakpoint max-width 1199px */
+@media only screen and (max-width: 1199.98px) {
+    /* Web Preview */
+    .rd-infobox-web-preview {
+        max-width: 940px;
+    }
+
+    .rd-web-preview {
+        margin-top: -100px;
+    }
+}
+
+
 /* Breakpoint max-width 991px */
 @media only screen and (max-width: 991.98px) {
     .rd-testimonial-logo-wrap {
@@ -40,6 +53,26 @@
 
     .rd-features-list li {
         margin-right: 20px;
+    }
+
+    /* Typeface */
+    .rd-typeface-name,
+    .rd-typeface-sample {
+        font-size: 22px;
+    }
+    .rd-typeface-weight {
+        font-size: 14px;
+    }
+
+
+    /* Web Preview */
+    .rd-infobox-web-preview {
+        max-width: 700px;
+    }
+
+    /* App Preview */
+    .rd-app-preview {
+        margin-top: -320px;
     }
 }
 
@@ -81,6 +114,23 @@
     .rd-pb-65 {
         padding-bottom: 40px;
     }
+
+    .rd-web-preview {
+        margin-top: -70px;
+    }
+    
+    /* Testimonials */
+    .rd-testimonial-card-wide {
+        padding-left: 70px;
+        padding-right: 40px;
+    }
+    .rd-testimonial-card-wide .rd-quote-mark::before {
+        left: -50px;
+    }
+    .rd-testimonial-card-wide .rd-testimonial-text {
+        font-size: 16px;
+        line-height: 1.6;
+    }
 }
 
 /* Breakpoint max-width 575px */
@@ -99,7 +149,6 @@
     .rd-logo-text {
         font-size: 24px;
     }
-
 
     /* Title */
     .rd-title {
@@ -150,5 +199,20 @@
     /* Browser Frame */
     .rd-browser-frame {
         height: 320px;
+    }
+
+    .rd-web-preview {
+        margin-top: -40px;
+    }
+
+    /* Testimonials */
+    .rd-testimonial-card-wide {
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+    .rd-testimonial-card-wide .rd-quote-mark::before {
+        left: -35px;
+        bottom: calc(100%);
+        font-size: 60px;
     }
 }
