@@ -1,5 +1,5 @@
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 body {
 	font-family: 'Ubuntu', sans-serif;
@@ -364,21 +364,21 @@ body {
 }
 
 .rd-testimonial-card-wide {
-    padding: 36px 100px;
+	padding: 36px 100px;
 }
 
 .rd-testimonial-card-wide .rd-quote-mark::before {
 	bottom: calc(100% + 5px);
-    left: -70px;
+	left: -70px;
 }
 
 .rd-testimonial-card-wide .rd-quote-mark {
-    margin-top: 0;
+	margin-top: 0;
 }
 
 .rd-testimonial-card-wide .rd-testimonial-text {
-    font-size: 20px;
-    line-height: 1.75;
+	font-size: 20px;
+	line-height: 1.75;
 }
 
 /* Quotation Mark */
@@ -763,7 +763,7 @@ body {
 }
 
 .rd-infobox .rd-infobox-img {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .rd-infobox-portfolio .rd-text {
@@ -899,35 +899,49 @@ body {
 
 /* Features Title */
 .rd-feature-title {
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 1.2;
-    text-transform: capitalize;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1.2;
+	text-transform: capitalize;
 }
 
 .rd-features-list {
-    padding-left: 0;
-	margin-bottom: 0;
-	list-style: none;
 	font-size: 30px;
+	margin-top: -8px;
+	margin-bottom: -8px;
+}
+
+.rd-features-list-item {
+	line-height: 1.2;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 28px;
+}
+
+.rd-features-list-item::before {
+	content: '\2022';
+	display: inline-block;
+	margin-right: 6px;
+	font-size: 24px;
+	color: #41b680;
 }
 
 .rd-features-list li {
 	position: relative;
-    margin-right: 30px;
-    display: inline;
-    margin-left: 12px;
+	margin-right: 30px;
+	display: inline;
+	margin-left: 12px;
 }
 
 .rd-features-list li:before {
-    content: '';
-    width: 6px;
-    height: 6px;
-    background-color: #41b680;
-    border-radius: 100%;
-    position: absolute;
-    left: -10px;
-    bottom: 8px;
+	content: '';
+	width: 6px;
+	height: 6px;
+	background-color: #41b680;
+	border-radius: 100%;
+	position: absolute;
+	left: -10px;
+	bottom: 8px;
 }
 
 
@@ -938,17 +952,32 @@ body {
 
 
 /* Typeface */
-.rd-typeface-roboto-bold, .rd-typeface-roboto-bold * {
+.rd-typeface-roboto-bold,
+.rd-typeface-roboto-bold * {
 	font-family: Roboto;
 	font-weight: 700;
 }
 
-.rd-typeface-roboto-normal, .rd-typeface-roboto-normal * {
+.rd-typeface-roboto-normal,
+.rd-typeface-roboto-normal * {
 	font-family: Roboto;
 	font-weight: 400;
 }
 
-.rd-typeface-roboto-helvetica, .rd-typeface-helvetica-normal * {
+.rd-typeface-roboto-condensed-bold,
+.rd-typeface-roboto-condensed-bold * {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+}
+
+.rd-typeface-roboto-condensed-normal,
+.rd-typeface-roboto-condensed-normal * {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+}
+
+.rd-typeface-roboto-helvetica,
+.rd-typeface-helvetica-normal * {
 	font-family: Helvetica;
 	font-weight: 300;
 }
@@ -962,7 +991,7 @@ body {
 }
 
 .rd-typeface-sample {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .rd-typeface-weight {
@@ -974,10 +1003,10 @@ body {
 
 /* Web Preview */
 .rd-infobox-web-preview {
-    max-width: 1000px;
-    margin: 0 auto;
-    border: 1px solid rgba(2, 61, 77, 0.3);
-    border-radius: 10px;
+	max-width: 1000px;
+	margin: 0 auto;
+	border: 1px solid rgba(2, 61, 77, 0.3);
+	border-radius: 10px;
 	padding: 30px 15px;
 	min-height: 150px;
 }
@@ -989,11 +1018,11 @@ body {
 }
 
 .rd-web-preview {
-    margin-top: -190px;
+	margin-top: -190px;
 }
 
 .rd-web-preview-img {
-    text-align: center;
+	text-align: center;
 }
 
 
@@ -1001,6 +1030,7 @@ body {
 .rd-app-preview-section {
 	padding: 50px 0 200px;
 }
+
 .rd-app-preview {
 	margin-top: -420px;
 	text-align: center;
@@ -1011,5 +1041,35 @@ body {
 }
 
 .rd-app-ballons {
-    margin-top: -20px;
+	margin-top: -20px;
+}
+
+/* Floating Images */
+.rd-floating-flower1,
+.rd-floating-flower2 {
+	position: relative;
+}
+
+.rd-floating-flower1::before {
+	content: '';
+	background-image: url(../img/group-13688.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 114px;
+	height: 142px;
+	position: absolute;
+	top: 60%;
+	left: -5%;
+}
+
+.rd-floating-flower2::after {
+	content: '';
+	background-image: url(../img/group-13693.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 94px;
+	height: 117px;
+	position: absolute;
+	bottom: 4%;
+	right: -8%;
 }
