@@ -6,7 +6,7 @@ var animation = bodymovin.loadAnimation({
 	  rendererSettings: { 
 	  	className: 'test'
 	  },
-	  path: '/AgenceMeV4/bodymovin/home/data.json'
+	  path: ''
 	})
 
 /* RANDOM COVER FUNCTION */

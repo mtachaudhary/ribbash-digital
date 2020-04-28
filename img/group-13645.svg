@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="143.979" height="137.99" viewBox="0 0 143.979 137.99">
+    <defs>
+        <filter id="prefix__Path_7218" width="143.979" height="137.99" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="10"/>
+            <feGaussianBlur result="blur" stdDeviation="12"/>
+            <feFlood flood-opacity=".188"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-2{fill:#023d4d}
+        </style>
+    </defs>
+    <g id="prefix__Group_13645" data-name="Group 13645" transform="translate(-606 -1970)">
+        <g transform="translate(606 1970)">
+            <path id="prefix__Path_7218-2" d="M58.79 73.884h2.4c16.8-6.9 34.79-23.243 34.79-42.738 0-10.2-4.949-18.445-12.9-21.744S67.337 8.353 59.99 14.8C52.642 8.353 44.244 6.4 36.9 9.4S24 20.949 24 31.146c0 19.495 17.995 35.84 34.79 42.738z" data-name="Path 7218" transform="translate(12 18.11)" style="fill:#2da0e3"/>
+        </g>
+        <g id="prefix__Group_13643" data-name="Group 13643" transform="translate(18 7)">
+            <rect id="prefix__Rectangle_1107" width="7.458" height="26.102" class="prefix__cls-2" data-name="Rectangle 1107" rx="2" transform="translate(624 2068.138)"/>
+            <path id="prefix__Path_7219" d="M77.976 61.118A5.127 5.127 0 0 0 74.62 60a7.178 7.178 0 0 0-2.331.373L57 64.195a7.737 7.737 0 0 1 .559 5.22 7.551 7.551 0 0 1-3.542 4.568 7.831 7.831 0 0 1-5.593.746L39.661 72.4a1.864 1.864 0 0 1-1.305-2.331 1.771 1.771 0 0 1 2.237-1.305l8.763 2.331a3.636 3.636 0 0 0 2.8-.373 3.542 3.542 0 0 0 1.771-2.237 4.009 4.009 0 0 0-.373-2.89 3.729 3.729 0 0 0-2.237-1.678L36.771 60H24v18.644h3.356l16.78 6.339a11.839 11.839 0 0 0 11.839-1.025L75.272 71c1.119-.653 4.661-2.7 4.661-5.873a4.848 4.848 0 0 0-1.958-4.009z" class="prefix__cls-2" data-name="Path 7219" transform="translate(611.187 2011.867)"/>
+        </g>
+    </g>
+</svg>
