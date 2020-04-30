@@ -21,6 +21,23 @@
     .rd-floating-flower2::after {
         right: -12%;
     }
+
+    .rd-floating-img-nobs1::before {
+        top: 57.1%;
+        left: 20px;
+    }
+
+    .rd-floating-img-nobs2::after {
+        width: 115px;
+        height: 165px;
+        right: -14px;
+    }
+
+    .rd-floating-img-nobs3::before {
+        width: 80px;
+        height: 190px;
+        left: -16px;
+    }
 }
 
 
@@ -28,6 +45,10 @@
 @media only screen and (max-width: 991.98px) {
     .rd-testimonial-logo-wrap {
         min-height: 140px;
+    }
+
+    .rd-header:not(.rd-header-shrink) .rd-navmenu {
+        padding: 15px;
     }
 
     .rd-container-1170 {
@@ -89,6 +110,28 @@
 
     .rd-floating-flower2::after {
         right: -15%;
+    }
+
+    .rd-floating-img-nobs1::before {
+        width: 100px;
+        height: 140px;
+        top: 58.1%;
+        left: 19px;
+    }
+
+    .rd-floating-img-nobs1::after {
+        width: 70px;
+        height: 152px;
+    }
+
+    .rd-floating-img-nobs2::after {
+        width: 100px;
+        height: 145px;
+        right: -16px;
+    }
+
+    .rd-floating-img-nobs3::before {
+        left: -28px;
     }
 }
 
@@ -156,7 +199,11 @@
 
     /* Floating Images */
     .rd-floating-flower1::before,
-    .rd-floating-flower2::after {
+    .rd-floating-flower2::after, 
+    .rd-floating-img-nobs1::before,
+    .rd-floating-img-nobs1::after,
+    .rd-floating-img-nobs2::after,
+    .rd-floating-img-nobs3::before {
         display: none;
     }
 }

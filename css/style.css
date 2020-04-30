@@ -356,11 +356,6 @@ body {
 	margin-bottom: 0;
 }
 
-/* .rd-testimonial-card .rd-testimonial-thumb {
-	width: 40px;
-	height: 40px;
-} */
-
 .rd-testimonial-card .rd-testimonial-text {
 	font-size: 14px;
 	font-weight: normal;
@@ -1164,6 +1159,54 @@ body {
 	position: absolute;
 	bottom: 20%;
 	left: -50%;
+}
+
+.rd-floating-img-nobs1::before {
+	content: '';
+	background-image: url(../img/sitting-girl.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 149px;
+	height: 212px;
+	position: absolute;
+	top: 58.6%;
+	left: 22px;
+}
+
+.rd-floating-img-nobs1::after {
+	content: '';
+	background-image: url(../img/standing-woman.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 105px;
+	height: 228px;
+	position: absolute;
+	bottom: 10.9%;
+	right: 3%;
+}
+
+.rd-floating-img-nobs2::after {
+	content: '';
+	background-image: url(../img/working-woman.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 154px;
+	height: 223px;
+	position: absolute;
+	bottom: 15.55%;
+	right: 1.4%;
+}
+
+.rd-floating-img-nobs3::before {
+	content: '';
+	background-image: url(../img/man.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 99px;
+	height: 239px;
+	position: absolute;
+	bottom: 20.3%;
+	left: 1%;
 }
 
 

@@ -14,7 +14,7 @@
 }
 
 /*Green*/
-.rd-features-list-yellow .rd-features-list-item::before {
+.rd-features-list-green .rd-features-list-item::before {
 	color: #41b680;
 }
 
@@ -46,6 +46,10 @@
 }
 
 /*red*/
+.rd-features-list-red .rd-features-list-item::before {
+	color: #f15d34;
+}
+
 .rd-color-bg-red,
 .rd-title-strip-red::before,
 .rd-button.rd-color-bg-red:hover {
@@ -81,7 +85,8 @@
 /* Green*/
 .rd-gradient-bg-green,
 .rd-title-strip-gradient-green::before,
-.rd-header-shrink {
+.rd-header-shrink,
+.rd-header:not(.rd-header-shrink) .rd-navmenu {
 	background-color: #41b680;
 	background-image: -webkit-linear-gradient(114deg, #40b680, #0c9a8e);
 	background-image: -moz-linear-gradient(114deg, #40b680, #0c9a8e);
