@@ -56,6 +56,17 @@
 	background-color: #f15d34;
 }
 
+/* Dark Red*/
+/* .rd-features-list-dark-red .rd-features-list-item::before {
+	color: #f86b6a;
+}
+
+.rd-color-bg-dark-red,
+.rd-title-strip-dark-red::before,
+.rd-button.rd-color-bg-dark-red:hover {
+	background-color: #f86b6a;
+} */
+
 /*White*/
 .rd-color-white,
 .rd-blog-title,
@@ -85,8 +96,7 @@
 /* Green*/
 .rd-gradient-bg-green,
 .rd-title-strip-gradient-green::before,
-.rd-header-shrink,
-.rd-header:not(.rd-header-shrink) .rd-navmenu {
+.rd-header-shrink {
 	background-color: #41b680;
 	background-image: -webkit-linear-gradient(114deg, #40b680, #0c9a8e);
 	background-image: -moz-linear-gradient(114deg, #40b680, #0c9a8e);

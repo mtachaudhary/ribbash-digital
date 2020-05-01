@@ -49,6 +49,10 @@
 
     .rd-header:not(.rd-header-shrink) .rd-navmenu {
         padding: 15px;
+        background-color: #41b680;
+        background-image: -webkit-linear-gradient(114deg, #40b680, #0c9a8e);
+        background-image: -moz-linear-gradient(114deg, #40b680, #0c9a8e);
+        background-image: linear-gradient(114deg, #40b680, #0c9a8e);
     }
 
     .rd-container-1170 {

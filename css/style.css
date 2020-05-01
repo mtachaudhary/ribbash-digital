@@ -1217,3 +1217,20 @@ body {
 .rd-app-preview-oneGift {
     padding: 50px 0 100px;
 }
+
+
+/* -------------- */
+/* YOR Hero Page */
+/* -------------- */
+
+.rd-bg-img-blue {
+	background-image: url(../img/background-pattern.svg), linear-gradient(30deg, #35acf4 10%, #2638c4);
+	background-position: center center;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rd-yor-hero-img {
+    width: 106px;
+}
