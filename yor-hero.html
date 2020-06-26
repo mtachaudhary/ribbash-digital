@@ -26,8 +26,10 @@
 		<!--Header Section Start-->
 		<header class="rd-header fixed-top">
 			<div class="container">
-				<nav class="navbar navbar-expand-lg navbar-dark pl-0 pr-0 rd-navbar">
-					<a class="navbar-brand rd-logo-text" href="index.html">Ribbash Digital</a>
+				<nav class="navbar navbar-expand-lg navbar-dark px-0 rd-navbar">
+					<a class="navbar-brand rd-logo py-0" href="index.html">
+						<img src="img/logo-white.svg" alt="logo" />
+					</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#defaultNavbar1" aria-controls="defaultNavbar1" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -47,10 +49,10 @@
 									<a class="dropdown-item" href="yor-hero.html">YOR Hero</a>
 								</div>
 							</li>
-							<li class="nav-item"> <a class="nav-link pl-3 pr-3" href="#">Services</a> </li>
-							<li class="nav-item"> <a class="nav-link pl-3 pr-3" href="#">Jobs</a> </li>
-							<li class="nav-item"> <a class="nav-link pl-3 pr-3" href="#">About Us</a> </li>
-							<li class="nav-item"> <a class="btn btn-light rd-button rd-button-effect1" href="#">Contact Us</a> </li>
+							<li class="nav-item"><a class="nav-link pl-3 pr-3" href="#">Services</a></li>
+							<li class="nav-item"><a class="nav-link pl-3 pr-3" href="#">Jobs</a></li>
+							<li class="nav-item"><a class="nav-link pl-3 pr-3" href="#">About Us</a></li>
+							<li class="nav-item"><a class="btn btn-light rd-button rd-button-effect1" href="#">Contact Us</a></li>
 						</ul>
 					</div>
 				</nav>
@@ -103,6 +105,23 @@
 			</div>
 		</section>
 		<!--Browser Section End-->
+
+		<!--Overview Section Start-->
+		<section class="rd-section py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="rd-infobox text-center">
+							<h2 class="rd-title rd-title-strip rd-title-strip-red rd-title-strip-center rd-text-dark mb-3">
+								<span class="font-weight-bold">Overview</span>
+							</h2>
+							<p class="rd-sub-text mb-0">The designing for a mobile app is altogether a different style of designing where UX/ UI has the maximum value. Yor Hero Mobile App is specifically designed to develop a connection between technicians and users to fi the issues of electronic gadgets and devices like TV, Laptops, Desktops, Electric Appliances, and Wi-Fi Routers, etc. Our approach in this regard is addressing the minds of technicians and general users, and we confirm that we achieved this target successfully.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Overview Section End-->
 
 		<!--Features Section Start-->
 		<section class="rd-section py-5">
@@ -223,11 +242,18 @@
 						</div>
 					</div>
 				</div>
-				<div class="row justify-content-center">
-					<div class="col-8 col-sm-5 col-md-4 my-5 my-sm-4 my-md-0 mr-auto">
-						<figure class="rd-app-ballons">
-							<img src="img/group-13554.png" srcset="img/group-13554@2x.png 2x, img/group-13554@3x.png 3x" alt="image" />
+				<div class="row">
+					<div class="col-8 col-md-6">
+						<figure class="rd-app-">
+							<img src="img/category-mobile.png" alt="app-preview" />
 						</figure>
+					</div>
+					<div class="col-8 col-md-6">
+						<div class="rd-app-content">
+							<h3 class="rd-title rd-pin-strip rd-text-dark mb-3">
+								<span class="font-weight-bold">Categories</span>
+							</h3>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -329,69 +355,68 @@
 		
 		<!--Footer Section Start-->
 		<footer class="rd-footer">
-			<div class="rd-footer-top rd-color-bg-dark pb-5 rd-clip-bg-top-left">
+			<div class="rd-footer-top rd-gradient-bg-orient-blue pb-5 rd-clip-bg-top-left font-weight-light">
 				<div class="container">
 					<div class="row">
 						<div class="col">
 							<div class="rd-infobox text-center">
 								<h2 class="rd-title rd-title-strip rd-title-strip-center text-white mb-3">
-									<span class="font-weight-normal">Recent</span>
 									<span class="font-weight-bold">Company News</span>
 								</h2>
 							</div>
 							<!--Owl-Carousel Start-->
 							<div class="owl-carousel owl-theme rd-blog-carousel">
-								<div class="rd-blog-item">
+								<div class="card rd-blog-item border-0">
 									<figure class="rd-blog-img mb-0">
 										<img src="img/mask-group--14.jpg" srcset="img/mask-group--14@2x.jpg 2x, img/mask-group--14@3x.jpg 3x" alt="">
 									</figure>
-									<div class="rd-blog-content">
+									<div class="card-body d-flex flex-column rd-blog-content">
 										<h4 class="rd-blog-title">
 											<a href="#">Lorem Ipsum is simply dummy text of the printing</a>
 										</h4>
-										<div class="rd-blog-metadata">
+										<div class="rd-blog-metadata mt-auto">
 											<span class="rd-blog-published"><i class="far fa-calendar-alt"></i>2 Days Ago</span>
 											<span class="rd-blog-time"><i class="far fa-clock"></i>2 mint</span>
 										</div>
 									</div>
 								</div>
-								<div class="rd-blog-item">
+								<div class="card rd-blog-item border-0">
 									<figure class="rd-blog-img mb-0">
 										<img src="img/mask-group--11.jpg" srcset="img/mask-group--11@2x.jpg 2x, img/mask-group--11@3x.jpg 3x" alt="">
 									</figure>
-									<div class="rd-blog-content">
+									<div class="card-body d-flex flex-column rd-blog-content">
 										<h4 class="rd-blog-title">
 											<a href="#">Porem Ipsum is simply dummy of the printing and typesetting.</a>
 										</h4>
-										<div class="rd-blog-metadata">
+										<div class="rd-blog-metadata mt-auto">
 											<span class="rd-blog-published"><i class="far fa-calendar-alt"></i>2 Days Ago</span>
 											<span class="rd-blog-time"><i class="far fa-clock"></i>2 mint</span>
 										</div>
 									</div>
 								</div>
-								<div class="rd-blog-item">
+								<div class="card rd-blog-item border-0">
 									<figure class="rd-blog-img mb-0">
 										<img src="img/people-inside-room-3184657.jpg" srcset="img/people-inside-room-3184657@2x.jpg 2x, img/people-inside-room-3184657@3x.jpg 3x" alt="">
 									</figure>
-									<div class="rd-blog-content">
+									<div class="card-body d-flex flex-column rd-blog-content">
 										<h4 class="rd-blog-title">
 											<a href="#">Horem Ipsum has been the industrys standard dummy text ever since.</a>
 										</h4>
-										<div class="rd-blog-metadata">
+										<div class="rd-blog-metadata mt-auto">
 											<span class="rd-blog-published"><i class="far fa-calendar-alt"></i>2 Days Ago</span>
 											<span class="rd-blog-time"><i class="far fa-clock"></i>2 mint</span>
 										</div>
 									</div>
 								</div>
-								<div class="rd-blog-item">
+								<div class="card rd-blog-item border-0">
 									<figure class="rd-blog-img mb-0">
 										<img src="img/mask-group--11.jpg" srcset="img/mask-group--11@2x.jpg 2x, img/mask-group--11@3x.jpg 3x" alt="">
 									</figure>
-									<div class="rd-blog-content">
+									<div class="card-body d-flex flex-column rd-blog-content">
 										<h4 class="rd-blog-title">
 											<a href="#">Porem Ipsum is simply dummy of the printing and typesetting.</a>
 										</h4>
-										<div class="rd-blog-metadata">
+										<div class="rd-blog-metadata mt-auto">
 											<span class="rd-blog-published"><i class="far fa-calendar-alt"></i>2 Days Ago</span>
 											<span class="rd-blog-time"><i class="far fa-clock"></i>2 mint</span>
 										</div>
@@ -405,7 +430,9 @@
 					<div class="row text-white">
 						<div class="col-12 col-md-4">
 							<div class="rd-footer-intro">
-								<h2 class="rd-footer-logo-text font-weight-bold">Ribbash Digital</h2>
+								<a class="rd-footer-logo d-inline-block mb-4" href="index.html">
+									<img src="img/logo-white.svg" alt="logo" />
+								</a>
 								<p class="mb-0">When someone thinks web designing, development, digital marketing, mobile app development, IoT, Business Automation Processes, graphic designing, and E-Commerce Business Solutions, he will think Ribbash.</p>
 							</div>
 						</div>
@@ -466,24 +493,8 @@
 			<div class="rd-copyright-footer rd-text-dark">
 				<div class="container">
 					<div class="row">
-						<div class="col-12 col-md-4 text-center text-md-left">
+						<div class="col-12 text-center">
 							<p class="rd-sub-text mb-0 font-weight-normal">©2020 - Ribbash | All Right Reserved</p>
-						</div>
-						<div class="col-12 col-md-4 my-2 my-md-0">
-							<ul class="list-inline rd-social-links text-center mb-0">
-								<li class="list-inline-item">
-									<a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#"><i class="fab fa-twitter fa-lg"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#"><i class="fab fa-instagram fa-lg"></i></a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-12 col-md-4 text-center text-md-right">
-							<a href="#" class="rd-sub-text font-weight-normal">Terms & Conditions</a>
 						</div>
 					</div>
 				</div>
