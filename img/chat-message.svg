@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="386" height="234" viewBox="0 0 386 234">
+    <defs>
+        <style>
+            .prefix__cls-5{font-family:HelveticaNeue,Helvetica Neue;fill:#242833;font-size:10px}.prefix__cls-6{fill:#00d793}
+        </style>
+    </defs>
+    <g id="prefix__Group_14804" data-name="Group 14804" transform="translate(-430 -3415)">
+        <path id="prefix__Rectangle" fill="#3593e4" d="M6 0h195a6 6 0 0 1 6 6v27H6a6 6 0 0 1-6-6V6a6 6 0 0 1 6-6z" transform="translate(609 3415)"/>
+        <path id="prefix__Rectangle_Copy_3" fill="#efefef" d="M6 0h305a6 6 0 0 1 6 6v120a6 6 0 0 1-6 6H0V6a6 6 0 0 1 6-6z" data-name="Rectangle Copy 3" transform="translate(430 3497)"/>
+        <text id="prefix__Hi_I_have_Problem_w" fill="#fff" data-name="Hi, I have Problem w" font-family="HelveticaNeue, Helvetica Neue" font-size="13px" transform="translate(625 3436)">
+            <tspan x="0" y="0">Hi, I have Problem with my mac</tspan>
+        </text>
+        <text id="prefix__Dorem_ipsum_dolor_si" fill="#242833" data-name="Dorem ipsum dolor si" font-family="HelveticaNeue, Helvetica Neue" font-size="13px" transform="translate(446 3520)">
+            <tspan x="0" y="0">Dorem ipsum dolor sit amet consectetur </tspan><tspan x="0" y="23">elit, sed do eiusmod tempor incididunt ut labore et </tspan><tspan x="0" y="46">dolore magna aliqua. Ut enim ad minim veniam</tspan><tspan x="0" y="69">quis nostrud exercitation ullamco laboris nisi</tspan><tspan x="0" y="92">ut aliquip ex ea commodo consequat.</tspan>
+        </text>
+        <text id="prefix___2_min_ago_copy" class="prefix__cls-5" data-name="2 min ago copy" transform="translate(430 3646)">
+            <tspan x="0" y="0">2 min ago</tspan>
+        </text>
+        <g id="prefix__Group_2" data-name="Group 2" transform="translate(477 3639)">
+            <path id="prefix__Path_Copy_2" d="M3.578 8.871L0 5.1l1.261-1.324 2.317 2.43L9.472 0l1.261 1.337z" class="prefix__cls-6" data-name="Path Copy 2" transform="translate(11.283)"/>
+            <path id="prefix__Path_Copy_3" d="M3.578 8.871L0 5.1l1.261-1.324 2.317 2.43L9.472 0l1.261 1.337z" class="prefix__cls-6" data-name="Path Copy 3"/>
+        </g>
+        <text id="prefix___2_min_ago" class="prefix__cls-5" data-name="2 min ago" transform="translate(773 3465)">
+            <tspan x="0" y="0">2 min ago</tspan>
+        </text>
+        <g id="prefix__Group_3" data-name="Group 3" transform="translate(748 3457)">
+            <path id="prefix__Path" d="M3.578 8.871L0 5.1l1.261-1.324 2.317 2.43L9.472 0l1.261 1.337z" class="prefix__cls-6" transform="translate(11.283)"/>
+            <path id="prefix__Path_Copy" d="M3.578 8.871L0 5.1l1.261-1.324 2.317 2.43L9.472 0l1.261 1.337z" class="prefix__cls-6" data-name="Path Copy"/>
+        </g>
+    </g>
+</svg>
