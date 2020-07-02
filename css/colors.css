@@ -14,6 +14,7 @@
 }
 
 /*Green*/
+.rd-text-green,
 .rd-features-list-green .rd-features-list-item::before {
 	color: #41b680;
 }

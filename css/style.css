@@ -571,7 +571,21 @@ body {
 }
 
 .rd-contact-info li {
-	margin-bottom: 18px;
+	margin-bottom: 15px;
+	display: -webkit-box;
+    display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+
+.rd-contact-detail .rd-contact-info li a {
+	color: #023d4d;
+}
+
+.rd-contact-detail .rd-contact-info li i {
+	color: #41b680;
 }
 
 .rd-footer-list li:last-child {
@@ -730,16 +744,49 @@ body {
 	z-index: 1;
 }
 
-.rd-contact-form input {
+.rd-contact-form input,
+.rd-contact-form .custom-file-label {
 	height: 50px;
 }
 
 .rd-contact-form input,
-.rd-contact-form textarea {
+.rd-contact-form textarea,
+.rd-contact-form .custom-file-label {
 	border-radius: 2px;
 	box-shadow: 0 6px 10px 0 rgba(131, 134, 163, 0.12);
 	border: solid 1px #e0e3e7;
 	font-size: 14px;
+}
+
+/* .rd-contact-form input[type="file"] {
+    background-color: #f6f7f9;
+    border-color: #f6f7f9;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+} */
+
+.rd-contact-form .custom-file-label {
+	text-align: center;
+	margin: 0px 15px;
+	top: inherit;
+	bottom: 0;
+	background-color: #f6f7f9;
+    border-color: #f6f7f9;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	line-height: 1;
+	font-weight: bold;
+}
+
+.rd-contact-form .custom-file-label::after {
+	display: none;
+}
+
+.rd-contact-form .custom-file-label i {
+	margin-right: 8px;
 }
 
 .rd-contact-form .rd-button {
@@ -1700,4 +1747,51 @@ body {
 .rd-technology-title {
 	font-size: 18px;
 	letter-spacing: -0.45px;
+}
+
+/* Job Cards */
+.rd-job-card {
+	margin-bottom: 30px;
+	transition: all 0.3s ease-in-out;
+}
+.rd-job-card:first-child {
+	margin-top: 30px;
+}
+.rd-job-card:last-child {
+	margin-bottom: 0;
+}
+.rd-job-card:hover {
+	-webkit-box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.08);
+	box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.08);
+	border: 0;
+}
+.rd-job-card .rd-button {
+	transition: all 0.3s ease-in-out;
+}
+.rd-job-card:hover .rd-button {
+	background-color: #0c9aa3;
+	color: #ffffff;
+}
+
+/* Social Links */
+.rd-social-links a {
+    display: inline-flex;
+    width: 38px;
+    height: 38px;
+    background-color: #023d4d;
+    color: #fff;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 16px;
+    border: 1px solid #023d4d;
+	transition: all 0.3s ease-in-out;
+}
+.rd-social-links a:hover {
+	background-color: #ffffff;
+	color: #023d4d;
 }
