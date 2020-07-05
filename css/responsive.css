@@ -38,11 +38,30 @@
         height: 190px;
         left: -16px;
     }
+
+    /* YOR Portfolio */
+    .rd-portfolio-yor-banner {
+        min-height: 680px;
+    }
+    .rd-yor-main-img {
+        margin-top: -520px;
+    }
 }
 
 
 /* Breakpoint max-width 991px */
 @media only screen and (max-width: 991.98px) {
+    /* Navbar */
+    .rd-navmenu .nav-item {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
     .rd-testimonial-logo-wrap {
         min-height: 140px;
     }
@@ -76,9 +95,15 @@
         height: 400px;
     }
 
+    /* Portfolio Banner */
+    .rd-portfolio-banner-section {
+        min-height: 600px;
+    }
+
     /* Browser Frame */
     .rd-browser-frame {
         height: 480px;
+        margin-top: -420px;
     }
 
     /* Features */
@@ -136,6 +161,14 @@
 
     .rd-floating-img-nobs3::before {
         left: -28px;
+    }
+
+    /* YOR Portfolio */
+    .rd-portfolio-yor-banner {
+        min-height: 540px;
+    }
+    .rd-yor-main-img {
+        margin-top: -380px;
     }
 }
 
@@ -210,6 +243,14 @@
     .rd-floating-img-nobs3::before {
         display: none;
     }
+
+    /* YOR Portfolio */
+    .rd-portfolio-yor-banner {
+        min-height: 440px;
+    }
+    .rd-yor-main-img {
+        margin-top: -280px;
+    }
 }
 
 /* Breakpoint max-width 575px */
@@ -227,6 +268,9 @@
     /* Logo */
     .rd-logo-text {
         font-size: 24px;
+    }
+    .rd-logo img {
+        width: 180px;
     }
 
     /* Title */
@@ -274,10 +318,15 @@
         text-align: center;
     }
 
+    /* Portfolio banner */
+    .rd-portfolio-banner-section {
+        min-height: 440px;
+    }
 
     /* Browser Frame */
     .rd-browser-frame {
         height: 320px;
+        margin-top: -260px;
     }
 
     .rd-web-preview {
@@ -294,5 +343,13 @@
         left: -35px;
         bottom: calc(100%);
         font-size: 60px;
+    }
+
+    /* YOR Portfolio */
+    .rd-portfolio-yor-banner {
+        min-height: 320px;
+    }
+    .rd-yor-main-img {
+        margin-top: -160px;
     }
 }

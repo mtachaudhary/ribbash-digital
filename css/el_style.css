@@ -532,6 +532,7 @@
 	-webkit-animation-delay: 1.5s;
 	animation-delay: 1.5s;
 }
+
 @keyframes qontoBubbleAnimLeft {
     0% {
     	opacity: 0;
@@ -689,7 +690,6 @@
 /* END ILLU MARKS */
 
 /* ILLU CHAUFFEUR PRIVE */
-/* .container-el.el-ly .el.el-chauffeurprive .container-obj .obj-1 */
 .container-el.el-ly .el .container-obj .rd-obj-slop
 {
 	height: 100%;
@@ -715,7 +715,7 @@
 /* END ILLU CHAUFFEUR PRIVE */
 
 /* ILLU ORANGE LABS */
-.container-el.el-ly .el.el-orangelabs .container-obj .obj-1
+/* .container-el.el-ly .el.el-orangelabs .container-obj .obj-1
 {
 	background-color: #EF693C;
 	background-blend-mode: hard-light;
@@ -738,7 +738,7 @@
 .container-el.el-ly .el.el-orangelabs .container-obj .obj-1
 {
 	opacity: 1;
-}
+} */
 /* END ILLU ORANGE LABS */
 
 /* ILLU MON DOCTEUR */
@@ -1434,7 +1434,7 @@
 .container-el.el-ly .el .desc
 {
 	color: #FFF;
-	width: 90%;
+	/* width: 90%; */
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
@@ -1445,18 +1445,20 @@
 .container-el.el-ly .el.mobile .desc
 {
 	width: 68%;
-	
 }
 
 .container-el.el-ly .el .desc h2
 {
 	display: inline-block;
 	vertical-align: middle;
-	width: 39%;
+	/* width: 39%; */
+	width: calc(40% - 22px);
 	font-size: 25px;
     font-weight: bold;
 	text-align: right;
-	padding-right: 30px;
+	padding-right: 20px;
+	overflow-wrap: break-word;
+    margin-bottom: 0;
 }
 .container-el.el-ly .el .desc .container-p
 {
@@ -1470,6 +1472,8 @@
 	font-size: 16px;
 	line-height: 1.38;
 	text-align: left;
+	margin-bottom: 0;
+	font-weight: 300;
 }
 .container-el.el-ly .el .desc .container-p p a
 {

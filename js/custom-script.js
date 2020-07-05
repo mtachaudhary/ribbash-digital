@@ -74,10 +74,20 @@
     }).scroll();
 
 
-    // Add class to header on scroll
+    // Sticky Header on Scroll
     $(window).scroll(function() {    
         var scroll = $(document).scrollTop();
     
+        if (scroll >= 150) {
+            $(".rd-header").addClass("rd-header-shrink");
+        } else {
+            $(".rd-header").removeClass("rd-header-shrink");
+        }
+    });
+
+    $(function () {
+        var scroll = $(document).scrollTop();
+
         if (scroll >= 150) {
             $(".rd-header").addClass("rd-header-shrink");
         } else {
