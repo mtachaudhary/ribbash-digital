@@ -7,6 +7,9 @@
         margin:30,
         nav:true,
         navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
         responsive:{
             0:{
                 items: 1,

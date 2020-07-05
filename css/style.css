@@ -1736,7 +1736,7 @@ body {
 .rd-job-card:hover {
 	-webkit-box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.08);
 	box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.08);
-	border: 0;
+	border-color: transparent;
 }
 .rd-job-card .rd-button {
 	transition: all 0.3s ease-in-out;
