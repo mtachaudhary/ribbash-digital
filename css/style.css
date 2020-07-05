@@ -659,7 +659,6 @@ body {
 .rd-carousel-arrows div.owl-nav [class*=owl-] {
 	color: #023d4d;
     border: 1px solid rgba(2, 61, 77, 0.3);
-    /* background-color: #03475a; */
 }
 .rd-carousel-arrows div.owl-nav [class*=owl-]:hover {
 	color: #fff;
@@ -1274,6 +1273,29 @@ body {
 
 .rd-app-ballons {
 	margin-top: -20px;
+}
+
+.rd-app-preview-carousel {
+    max-width: 1330px;
+	padding: 0 10px;
+	margin-top: 30px;
+    margin-bottom: 50px;
+}
+.rd-app-carousel-left {
+	margin-left: auto;
+}
+.rd-app-carousel-right {
+	margin-right: auto;
+}
+.rd-app-preview-carousel div.owl-nav [class*=owl-] {
+    color: #fff;
+    border: 1px solid rgba(225, 225, 225, 0.7);
+}
+.rd-app-carousel-left .owl-next {
+	display: none !important;
+}
+.rd-app-carousel-right .owl-prev {
+	display: none !important;
 }
 
 /* Floating Images */

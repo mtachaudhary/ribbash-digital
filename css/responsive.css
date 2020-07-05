@@ -2,15 +2,27 @@
 
 
 /* Breakpoint max-width 1199px */
+@media only screen and (max-width: 1440px) {
+    .rd-app-preview-carousel {
+        max-width: 1260px;
+    }
+}
+
+
+/* Breakpoint max-width 1199px */
 @media only screen and (max-width: 1199.98px) {
 
     /* Web Preview */
     .rd-infobox-web-preview {
         max-width: 940px;
     }
-
     .rd-web-preview {
         margin-top: -100px;
+    }
+
+    /* App Preview */
+    .rd-app-preview-carousel {
+        max-width: 1080px;
     }
 
     /* Floating Images */

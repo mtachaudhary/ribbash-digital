@@ -51,6 +51,41 @@
         }
     });
 
+    // Initialize App Preview owl-carousel
+    $('.rd-app-preview-carousel').owlCarousel({
+        loop:true,
+        margin:5,
+        nav:true,
+        navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
+        responsive:{
+            0:{
+                items: 1,
+                nav: false,
+                dots: true
+            },
+            480:{
+                items: 2,
+                nav: false,
+                dots: true
+            },
+            600:{
+                items: 3,
+                nav: false,
+                dots: true
+            },
+            900:{
+                items: 4,
+                nav: false,
+                dots: true
+            },
+            1000:{
+                items: 4,
+                nav: true,
+                dots: false
+            }
+        }
+    });
+
     // Setup wow.js
     new WOW().init();
 
