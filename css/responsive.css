@@ -252,7 +252,19 @@
     .rd-floating-img-nobs1::before,
     .rd-floating-img-nobs1::after,
     .rd-floating-img-nobs2::after,
-    .rd-floating-img-nobs3::before {
+    .rd-floating-img-nobs3::before,
+    .rd-onegift-float-img1::before,
+    .rd-onegift-float-img1::after,
+    .rd-onegift-float-img2::before,
+    .rd-onegift-float-img2::after,
+    .rd-onshor-float-img1::before,
+    .rd-onshor-float-img1::after,
+    .rd-onshor-float-img2::before,
+    .rd-onshor-float-img2::after,
+    .rd-pin-strip-left::before,
+    .rd-pin-strip-left::after,
+    .rd-pin-strip-right::before,
+    .rd-pin-strip-right::after {
         display: none;
     }
 
@@ -363,5 +375,18 @@
     }
     .rd-yor-main-img {
         margin-top: -160px;
+    }
+    .rd-pin-strip-left, .rd-pin-strip-right {
+        display: block;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    /* About Us */
+    .rd-value {
+        padding: 20px 10px;
+    }
+    .rd-value figcaption {
+        font-size: 16px;
     }
 }
