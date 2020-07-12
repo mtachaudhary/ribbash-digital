@@ -108,6 +108,10 @@ body {
 }
 
 /*Header*/
+.rd-header {
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
 .rd-navbar {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -173,6 +177,10 @@ body {
 .rd-header-white.rd-header-shrink {
 	background-image: none;
 	background-color: #ffffff;
+}
+.rd-header-white .rd-button {
+	color: #119c8c;
+	background-color: rgba(17, 156, 140, 0.1);
 }
 
 
