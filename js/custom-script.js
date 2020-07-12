@@ -134,31 +134,28 @@
     });
 
 
-    var src     = $('.rd-logo img').attr('src');
-    var srcAlt  = $('.rd-logo img').data('src-alt');
+    // Change header on hover
+    if ( ! $('.rd-header').hasClass('rd-header-white') ) {
+        var src     = $('.rd-logo img').attr('src');
+        var srcAlt  = $('.rd-logo img').data('src-alt');
 
-    $('.rd-header').hover( function(){
-        $(this).addClass('rd-header-white');
-        $(this).find('.rd-navbar').addClass('navbar-light');
-        $(this).find('.rd-navbar').removeClass('navbar-dark');
+        $('.rd-header').hover( function(){
+            $(this).addClass('rd-header-white');
+            $(this).find('.rd-navbar').addClass('navbar-light');
+            $(this).find('.rd-navbar').removeClass('navbar-dark');
 
-        $('.rd-logo img').attr('src', srcAlt);
-        $('.rd-logo img').attr('data-src-alt', src);
-    },
-    function(){
-        $(this).removeClass('rd-header-white');
-        $(this).find('.rd-navbar').addClass('navbar-dark');
-        $(this).find('.rd-navbar').removeClass('navbar-light');
+            $('.rd-logo img').attr('src', srcAlt);
+            $('.rd-logo img').attr('data-src-alt', src);
+        },
+        function(){
+            $(this).removeClass('rd-header-white');
+            $(this).find('.rd-navbar').addClass('navbar-dark');
+            $(this).find('.rd-navbar').removeClass('navbar-light');
 
-        $('.rd-logo img').attr('src', src);
-        $('.rd-logo img').attr('data-src-alt', srcAlt);
-    });
-
-    
-
-    $('.rd-header').hover( function(){
-        
-    });
+            $('.rd-logo img').attr('src', src);
+            $('.rd-logo img').attr('data-src-alt', srcAlt);
+        });
+    }
     
 
 })(jQuery);
