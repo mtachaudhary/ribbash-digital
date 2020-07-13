@@ -109,6 +109,11 @@ body {
 
 /*Header*/
 .rd-header {
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
@@ -181,6 +186,11 @@ body {
 .rd-header-white .rd-button {
 	color: #119c8c;
 	background-color: rgba(17, 156, 140, 0.1);
+}
+
+.fixed-top {
+    position: fixed;
+    z-index: 1030;
 }
 
 

@@ -111,8 +111,7 @@
 
 /* Green*/
 .rd-gradient-bg-green,
-.rd-title-strip-gradient-green::before,
-.rd-header-shrink {
+.rd-title-strip-gradient-green::before {
 	background-color: #41b680;
 	background-image: -webkit-linear-gradient(114deg, #40b680, #0c9a8e);
 	background-image: -moz-linear-gradient(114deg, #40b680, #0c9a8e);
