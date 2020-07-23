@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="prefix__Icon" width="46.83" height="39.347" viewBox="0 0 46.83 39.347">
     <defs>
         <style>
-            .prefix__cls-1{fill:#41b680}.prefix__cls-2{fill:#023d4d}
+            .prefix__cls-1{fill:#0c9aa3}.prefix__cls-2{fill:#023d4d}
         </style>
     </defs>
     <g id="prefix__Group_11715" data-name="Group 11715">
@@ -83,7 +83,7 @@
                 </g>
             </g>
             <g id="prefix__Group_11707" data-name="Group 11707" transform="translate(9.852 33.53)">
-                <path id="prefix__Path_4866" d="M1110.232 604.71a.928.928 0 1 0 .928-.929.928.928 0 0 0-.928.929z" data-name="Path 4866" transform="translate(-1109.783 -603.332)" style="fill:#fff"/>
+                <path id="prefix__Path_4866" fill="#fff" d="M1110.232 604.71a.928.928 0 1 0 .928-.929.928.928 0 0 0-.928.929z" data-name="Path 4866" transform="translate(-1109.783 -603.332)"/>
                 <path id="prefix__Path_4867" d="M1109.109 604.035a1.377 1.377 0 1 1 1.377-1.377 1.379 1.379 0 0 1-1.377 1.377zm0-1.857a.48.48 0 1 0 .48.48.48.48 0 0 0-.48-.48z" class="prefix__cls-2" data-name="Path 4867" transform="translate(-1107.732 -601.281)"/>
             </g>
             <g id="prefix__Group_11708" data-name="Group 11708" transform="translate(2.752 11.489)">

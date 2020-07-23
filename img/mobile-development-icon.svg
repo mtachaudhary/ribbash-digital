@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="34.609" height="39.518" viewBox="0 0 34.609 39.518">
     <defs>
         <style>
-            .prefix__cls-1{fill:#41b680}.prefix__cls-2{fill:#023d4d}.prefix__cls-4{fill:#002c49}
+            .prefix__cls-1{fill:#0c9aa3}.prefix__cls-2{fill:#023d4d}.prefix__cls-4{fill:#002c49}
         </style>
     </defs>
     <g id="prefix__Group_12234" data-name="Group 12234" transform="translate(-21253.59 -1194.018)">
@@ -51,7 +51,7 @@
             </g>
         </g>
         <g id="prefix__Group_12149" data-name="Group 12149" transform="translate(21265.676 1228.37)">
-            <path id="prefix__Path_5089" d="M1110.232 604.938a1.157 1.157 0 1 0 1.157-1.157 1.157 1.157 0 0 0-1.157 1.157z" data-name="Path 5089" transform="translate(-1109.673 -603.222)" style="fill:#fff"/>
+            <path id="prefix__Path_5089" fill="#fff" d="M1110.232 604.938a1.157 1.157 0 1 0 1.157-1.157 1.157 1.157 0 0 0-1.157 1.157z" data-name="Path 5089" transform="translate(-1109.673 -603.222)"/>
             <path id="prefix__Path_5090" d="M1109.448 604.714a1.716 1.716 0 1 1 1.716-1.716 1.719 1.719 0 0 1-1.716 1.716zm0-2.314a.6.6 0 1 0 .6.6.6.6 0 0 0-.6-.6z" class="prefix__cls-2" data-name="Path 5090" transform="translate(-1107.732 -601.281)"/>
         </g>
         <g id="prefix__Group_12153" data-name="Group 12153" transform="translate(21278.408 1209.323)">
