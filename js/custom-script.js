@@ -215,5 +215,10 @@
         previousScroll = currentScroll;
     });
 
+    // Initialize Tooltip
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+
 
 })(jQuery);

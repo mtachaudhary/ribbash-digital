@@ -25,49 +25,96 @@
     <div class="rd-wrap">
 
         <!--Header Section Start-->
-        <header class="rd-header rd-header-transparent">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-dark px-0 rd-navbar">
-                    <a class="navbar-brand rd-logo py-0" href="index.html">
-                        <img src="img/logo-white.svg" data-src-alt="img/logo-black.svg" alt="logo" />
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#defaultNavbar1" aria-controls="defaultNavbar1" aria-expanded="false" aria-label="Toggle navigation">
+		<header class="rd-header rd-header-transparent">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-dark px-0 rd-navbar">
+					<a class="navbar-brand rd-logo py-0" href="index.html">
+						<img src="img/logo-white.svg" data-src-alt="img/logo-black.svg" alt="logo" />
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#defaultNavbar1" aria-controls="defaultNavbar1" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
 
-                    <div class="collapse navbar-collapse" id="defaultNavbar1">
-                        <ul class="navbar-nav ml-auto rd-navmenu">
-                            <li class="nav-item active">
-                                <a class="nav-link pl-3 pr-3" href="index.html">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle pl-3 pr-3" href="#" id="ourWorkDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Work</a>
-                                <div class="dropdown-menu" aria-labelledby="ourWorkDropdown">
-                                    <a class="dropdown-item" href="nomad.html">Nomad</a>
-                                    <a class="dropdown-item" href="onshore.html">OnShore Momentum</a>
-                                    <a class="dropdown-item" href="one-gift.html">OneGift</a>
-                                    <a class="dropdown-item" href="no-bs.html">NO-BS</a>
-                                    <a class="dropdown-item" href="yor-hero.html">YOR Hero</a>
-                                    <a class="dropdown-item" href="no-bs-dashboard.html">NO-BS Dashboard</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle pl-3 pr-3" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                                <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-                                    <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
-                                    <a class="dropdown-item" href="web-development.html">Web Development</a>
-                                    <a class="dropdown-item" href="mobile-development.html">Mobile Development</a>
-                                </div>
-                            </li>
-                            <li class="nav-item"><a class="nav-link pl-3 pr-3" href="#">Jobs</a></li>
-                            <li class="nav-item"><a class="nav-link pl-3 pr-3" href="about-us.html">About Us</a></li>
-                            <li class="nav-item"><a class="btn btn-light rd-button rd-button-effect1" href="contact-us.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <!--Header Section End-->
+					<div class="collapse navbar-collapse" id="defaultNavbar1">
+						<ul class="navbar-nav ml-auto rd-navmenu">
+							<li class="nav-item active">
+								<a class="nav-link pl-3 pr-3" href="index.html">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle pl-3 pr-3" href="#" id="ourWorkDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Work</a>
+								<div class="dropdown-menu rd-dropdown-work" aria-labelledby="ourWorkDropdown">
+									<div class="container">
+										<div class="row row-cols-1 row-cols-sm-6 align-items-center">
+											<div class="col">
+												<a class="dropdown-item" href="nomad.html" data-toggle="tooltip" data-placement="bottom" title="Nomad">
+													<img src="img/Nomad.svg" alt="Nomad" />
+												</a>
+											</div>
+											<div class="col">
+												<a class="dropdown-item" href="onshore.html" data-toggle="tooltip" data-placement="bottom" title="Onshore Momentum">
+													<img src="img/Onshore-Momentum.svg" alt="Onshore" />
+												</a>
+											</div>
+											<div class="col">
+												<a class="dropdown-item" href="one-gift.html" data-toggle="tooltip" data-placement="bottom" title="OneGift">
+													<img src="img/OneGift.svg" alt="OneGift" />
+												</a>
+											</div>
+											<div class="col">
+												<a class="dropdown-item" href="no-bs.html" data-toggle="tooltip" data-placement="bottom" title="NO-BS">
+													<img src="img/NO-BS.svg" alt="NO-BS" />
+												</a>
+											</div>
+											<div class="col">
+												<a class="dropdown-item" href="yor-hero.html" data-toggle="tooltip" data-placement="bottom" title="YOR Hero">
+													<img src="img/YorHero.svg" alt="YOR Hero" />
+												</a>
+											</div>
+											<div class="col">
+												<a class="dropdown-item" href="no-bs-dashboard.html" data-toggle="tooltip" data-placement="bottom" title="NO-BS Dashboard">
+													<img src="img/NO-BS.svg" alt="NO-BS Dashboard" />
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle pl-3 pr-3" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+								<div class="dropdown-menu rd-dropdown-services" aria-labelledby="servicesDropdown">
+									<div class="container">
+										<div class="row row-cols-1 row-cols-md-3">
+											<div class="col">
+												<a class="dropdown-item" href="ui-ux.html">
+													<img src="img/ui-ux-icon.svg" alt="ui-ux-icon" />
+													<span>UI/UX Design</span>
+												</a>
+											</div>
+											<div class="col">
+												<a class="dropdown-item" href="web-development.html">
+													<img src="img/web-development-icon.svg" alt="web-developer-icon" />
+													<span>Web Development</span>
+												</a>
+											</div>
+											<div class="col">
+												<a class="dropdown-item" href="mobile-development.html">
+													<img src="img/mobile-development-icon.svg" alt="mobile-developer-icon" />
+													<span>Mobile Development</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item"><a class="nav-link pl-3 pr-3" href="#">Jobs</a></li>
+							<li class="nav-item"><a class="nav-link pl-3 pr-3" href="about-us.html">About Us</a></li>
+							<li class="nav-item"><a class="btn btn-light rd-button rd-button-effect1" href="contact-us.html">Contact Us</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!--Header Section End-->
 
         <!--Banner Section Start-->
         <section class="rd-section rd-portfolio-banner-section rd-gradient-bg-yellow rd-clip-bg-bottom-right">
@@ -340,24 +387,24 @@
                     <form class="rd-contact-form" action="" method="post">
                         <div class="row">
                             <div class="form-group col-md-4 mb-4">
-                                <label for="first-name">First Name</label>
-                                <input type="text" name="first-name" id="first-name" class="form-control" placeholder="John">
+                                <label for="full-name">Full Name</label>
+                                <input type="text" name="full-name" id="full-name" class="form-control" placeholder="John Smiths">
                             </div>
                             <div class="form-group col-md-4 mb-4">
-                                <label for="last-name">Last Name</label>
-                                <input type="text" name="last-name" id="last-name" class="form-control" placeholder="Smiths">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" class="form-control" placeholder="johnsmiths@ribbash.com" required>
                             </div>
                             <div class="form-group col-md-4 mb-4">
-                                <label for="email">Email Address</label>
-                                <input type="text" name="email" id="email" class="form-control" placeholder="johnsmiths@ribbash.com">
+                                <label for="website">Website</label>
+                                <input type="url" name="website" id="website" class="form-control" placeholder="https://www.example.com/">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea class="form-control" name="message" id="message" rows="3" placeholder="Lead UI / UX Designer, ☕️Tea Addictive , 🛫Traveler, 🎵Music, 29th July My Day, Leo™"></textarea>
+                            <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
                         </div>
                         <div class="text-center">
-                            <button class="btn btn-light rd-button rd-gradient-bg-green rd-button-effect1 mt-4" type="submit">Submit</button>
+                            <button class="btn btn-light rd-button rd-gradient-bg-orient-blue rd-button-effect1 mt-4" type="submit">Submit</button>
                         </div>
                     </form>
                 </div>
