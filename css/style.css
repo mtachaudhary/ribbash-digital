@@ -751,6 +751,19 @@ body {
 }
 
 
+.rd-related-products-carousel .owl-stage-outer {
+	padding: 25px 0;
+}
+.rd-related-products-carousel img {
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.rd-related-products-carousel img:hover {
+	-webkit-box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.08);
+	box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.08);
+}
+
 
 
 /*Blog*/

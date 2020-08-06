@@ -33,6 +33,7 @@
     $('.rd-related-products-carousel').owlCarousel({
         loop:true,
         margin:30,
+        stagePadding: 25,
         nav:true,
         navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
         responsive:{
@@ -41,12 +42,12 @@
                 nav: false,
                 dots: true
             },
-            600:{
+            768:{
                 items: 2,
                 nav: false,
                 dots: true
             },
-            1000:{
+            1140:{
                 items: 2,
                 nav: true,
                 dots: false
