@@ -18,11 +18,11 @@ var animation = bodymovin.loadAnimation({
 
 var cmLyEl = [
 	"show-qonto",
-	"show-marks",
+	// "show-marks",
 	"show-chauffeurprive",
 	"show-lecollectionist",
 	"show-orangelabs",
-	// "show-mondocteur",
+	"show-mondocteur",
 	// "show-sendinblue",
 	// "show-rydoo"
 ];
@@ -45,10 +45,10 @@ function coverCarousselBg(){
 		$('#section-home .container-caroussel .container-bg .bg.bg-qonto').addClass('show');
 		$('.rd-home-banner').addClass('rd-gradient-bg-sky-blue');
 	} 
-	else if ($('#section-home .container-caroussel').hasClass('show-marks')) {
-		$('#section-home .container-caroussel .container-bg .bg.bg-marks').addClass('show');
-		$('.rd-home-banner').addClass('rd-bg-dark-grayish-blue');
-	} 
+	// else if ($('#section-home .container-caroussel').hasClass('show-marks')) {
+	// 	$('#section-home .container-caroussel .container-bg .bg.bg-marks').addClass('show');
+	// 	$('.rd-home-banner').addClass('rd-bg-dark-grayish-blue');
+	// } 
 	else if ($('#section-home .container-caroussel').hasClass('show-chauffeurprive')) {
 		$('#section-home .container-caroussel .container-bg .bg.bg-chauffeurprive').addClass('show');
 		$('.rd-home-banner').addClass('rd-gradient-bg-green');
@@ -63,13 +63,14 @@ function coverCarousselBg(){
 	} 
 	else if ($('#section-home .container-caroussel').hasClass('show-mondocteur')) {
 		$('#section-home .container-caroussel .container-bg .bg.bg-mondocteur').addClass('show');
+		$('.rd-home-banner').addClass('rd-bg-dark-grayish-blue');
 	} 
-	else if ($('#section-home .container-caroussel').hasClass('show-rydoo')) {
-		$('#section-home .container-caroussel .container-bg .bg.bg-rydoo').addClass('show');
-	} 
-	else if ($('#section-home .container-caroussel').hasClass('show-sendinblue')) {
-		$('#section-home .container-caroussel .container-bg .bg.bg-sendinblue').addClass('show');
-	};
+	// else if ($('#section-home .container-caroussel').hasClass('show-rydoo')) {
+	// 	$('#section-home .container-caroussel .container-bg .bg.bg-rydoo').addClass('show');
+	// } 
+	// else if ($('#section-home .container-caroussel').hasClass('show-sendinblue')) {
+	// 	$('#section-home .container-caroussel .container-bg .bg.bg-sendinblue').addClass('show');
+	// };
 
 };
 
