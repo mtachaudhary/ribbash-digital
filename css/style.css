@@ -816,6 +816,7 @@ body {
 
 /*Divider*/
 .rd-divider {
+	display: block;
 	border-bottom: 2px solid rgba(255, 255, 255, 0.40);
 }
 

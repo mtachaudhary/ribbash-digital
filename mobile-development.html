@@ -45,7 +45,7 @@
 								<a class="nav-link dropdown-toggle pl-3 pr-3" href="#" id="ourWorkDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Work</a>
 								<div class="dropdown-menu rd-dropdown-work" aria-labelledby="ourWorkDropdown">
 									<div class="container">
-										<div class="row row-cols-1 row-cols-sm-6 align-items-center">
+										<div class="row row-cols-1 row-cols-sm-6 align-items-center justify-content-sm-center">
 											<div class="col">
 												<a class="dropdown-item" href="nomad.html" data-toggle="tooltip" data-placement="bottom" title="Nomad">
 													<img src="img/Nomad.svg" alt="Nomad" />
@@ -62,18 +62,13 @@
 												</a>
 											</div>
 											<div class="col">
-												<a class="dropdown-item" href="no-bs.html" data-toggle="tooltip" data-placement="bottom" title="NO-BS">
-													<img src="img/NO-BS.svg" alt="NO-BS" />
+												<a class="dropdown-item" href="no-bs-dashboard.html" data-toggle="tooltip" data-placement="bottom" title="NO-BS Dashboard">
+													<img src="img/NO-BS.svg" alt="NO-BS Dashboard" />
 												</a>
 											</div>
 											<div class="col">
 												<a class="dropdown-item" href="yor-hero.html" data-toggle="tooltip" data-placement="bottom" title="YOR Hero">
 													<img src="img/YorHero.svg" alt="YOR Hero" />
-												</a>
-											</div>
-											<div class="col">
-												<a class="dropdown-item" href="no-bs-dashboard.html" data-toggle="tooltip" data-placement="bottom" title="NO-BS Dashboard">
-													<img src="img/NO-BS.svg" alt="NO-BS Dashboard" />
 												</a>
 											</div>
 										</div>
@@ -107,7 +102,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="nav-item"><a class="nav-link pl-3 pr-3" href="#">Jobs</a></li>
+							<!-- <li class="nav-item"><a class="nav-link pl-3 pr-3" href="#">Jobs</a></li> -->
 							<li class="nav-item"><a class="nav-link pl-3 pr-3" href="about-us.html">About Us</a></li>
 							<li class="nav-item"><a class="btn btn-light rd-button rd-button-green rd-button-effect1" href="contact-us.html">Contact Us</a></li>
 						</ul>
@@ -122,8 +117,8 @@
 			<div class="container">
 				<div class="row justify-content-md-center">
 					<div class="col-12 col-md-10 col-lg-8">
-						<div class="rd-infobox text-center wow fadeInUp">
-							<h2 class="rd-title rd-title-strip rd-title-strip-green rd-title-strip-center rd-text-dark mb-3">
+						<div class="rd-infobox text-center rd-text-dark wow fadeInUp">
+							<h2 class="rd-title rd-title-strip rd-title-strip-green rd-title-strip-center mb-3">
 								<span class="font-weight-normal">Custom</span>
 								<span class="font-weight-bold">Web Development</span>
 							</h2>
@@ -175,8 +170,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						<div class="rd-infobox text-center">
-							<h2 class="rd-title rd-title-strip rd-title-strip-green rd-title-strip-center rd-text-dark mb-3 wow fadeInUp">
+						<div class="rd-infobox text-center rd-text-dark">
+							<h2 class="rd-title rd-title-strip rd-title-strip-green rd-title-strip-center mb-3 wow fadeInUp">
 								<span class="font-weight-normal d-block">Issues to address</span>
 								<span class="font-weight-bold d-block">during mobile development at Ribbash</span>
 							</h2>
@@ -480,7 +475,7 @@
                             </div>
                             <div class="form-group col-md-4 mb-4">
                                 <label for="website">Website</label>
-                                <input type="url" name="website" id="website" class="form-control" placeholder="https://www.example.com/">
+                                <input type="text" name="website" id="website" class="form-control" placeholder="https://www.example.com/">
                             </div>
                         </div>
                         <div class="form-group">
@@ -500,7 +495,7 @@
 		<footer class="rd-footer">
 			<div class="rd-footer-top rd-gradient-bg-orient-blue pb-5 rd-clip-bg-top-left font-weight-light">
 				<div class="container">
-					<div class="row">
+					<div class="row d-none">
 						<div class="col">
 							<div class="rd-infobox text-center">
 								<h2 class="rd-title rd-title-strip rd-title-strip-center text-white mb-3">
@@ -569,14 +564,14 @@
 							<!--Owl-Carousel End-->
 						</div>
 					</div>
-					<span class="rd-divider d-block w-100 mt-5 mb-5"></span>
+					<span class="rd-divider w-100 mt-5 mb-5 d-none"></span>
 					<div class="row text-white">
 						<div class="col-12 col-md-4">
 							<div class="rd-footer-intro">
 								<a class="rd-footer-logo d-inline-block mb-4" href="index.html">
 									<img src="img/logo-white.svg" alt="logo" />
 								</a>
-								<p class="mb-0">When someone thinks web designing, development, digital marketing, mobile app development, IoT, Business Automation Processes, graphic designing, and E-Commerce Business Solutions, he will think Ribbash.</p>
+								<p class="mb-0">When someone thinks web designing, development, mobile app development, IoT, Business Automation Processes, graphic designing, and E-Commerce Business Solutions, he will think Ribbash.</p>
 							</div>
 						</div>
 						<div class="col-12 col-md-8">
@@ -584,10 +579,9 @@
 								<div class="col-12 col-md-4">
 										<h4 class="rd-sub-title mt-4 mb-3">Quick Links</h4>
 										<ul class="rd-footer-list rd-quick-links list-inline mb-0">
-											<li><a href="#">UI/UX Design</a></li>
-											<li><a href="#">Website</a></li>
-											<li><a href="#">Mobile</a></li>
-											<li><a href="#">Development</a></li>
+											<li><a href="ui-ux.html">UI/UX Design</a></li>
+											<li><a href="web-development.html">Website Development</a></li>
+											<li><a href="mobile-development.html">Mobile Development</a></li>
 										</ul>
 								</div>
 								<div class="col-12 col-md-4">
@@ -596,15 +590,11 @@
 										<ul class="rd-footer-list rd-social-links-vr list-inline mb-0">
 											<li>
 												<i class="fab fa-facebook-f"></i>
-												<a href="#">Facebook</a>
-											</li>
-											<li>
-												<i class="fab fa-twitter"></i>
-												<a href="#">Twitter</a>
+												<a href="#" target="_blank">Facebook</a>
 											</li>
 											<li>
 												<i class="fab fa-instagram"></i>
-												<a href="#">Instagram</a>
+												<a href="#" target="_blank">Instagram</a>
 											</li>
 										</ul>
 									</div>
@@ -615,15 +605,11 @@
 										<ul class="rd-footer-list rd-contact-info list-inline mb-0">
 											<li>
 												<i class="fas fa-envelope"></i>
-												<a href="mailto:admin@ribbash.com">Admin@ribbash.com</a>
-											</li>
-											<li>
-												<i class="fas fa-phone-alt"></i>
-												<a href="#">+92 3xx xxxxxxx</a>
+												<a href="mailto:hello@ribbash.com">hello@ribbash.com</a>
 											</li>
 											<li class="d-flex align-items-baseline">
 												<i class="fas fa-map-marker-alt"></i>
-												<span>Lorem ipsum dolor sit amet, consectetur. Lahore</span>
+												<span>Main Boulevard, Gulberg IIi, Lahore, Punjab, Pakistan</span>
 											</li>
 										</ul>
 									</div>
