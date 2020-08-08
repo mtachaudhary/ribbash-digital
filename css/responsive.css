@@ -124,6 +124,9 @@
         -ms-flex-direction: column;
         flex-direction: column;
     }
+    .rd-navmenu .rd-button {
+        width: 100%;
+    }
 
     /* Services dropdown */
     .rd-dropdown-services .dropdown-item {
@@ -133,14 +136,6 @@
 
     .rd-testimonial-logo-wrap {
         min-height: 140px;
-    }
-
-    .rd-header:not(.rd-header-shrink) .rd-navmenu {
-        padding: 15px;
-        background-color: #41b680;
-        background-image: -webkit-linear-gradient(114deg, #40b680, #0c9a8e);
-        background-image: -moz-linear-gradient(114deg, #40b680, #0c9a8e);
-        background-image: linear-gradient(114deg, #40b680, #0c9a8e);
     }
 
     .rd-navbar .navbar-nav .dropdown-menu {

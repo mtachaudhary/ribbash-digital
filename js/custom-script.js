@@ -152,12 +152,15 @@
             $(this).find('.rd-logo img').attr('data-src-alt', src);
         },
         function(){
-            $(this).removeClass('rd-header-white');
-            $(this).find('.rd-navbar').addClass('navbar-dark');
-            $(this).find('.rd-navbar').removeClass('navbar-light');
+            // check if dropdown not collapsed
+            if (! $('.navbar-collapse').hasClass('show')) {
+                $(this).removeClass('rd-header-white');
+                $(this).find('.rd-navbar').addClass('navbar-dark');
+                $(this).find('.rd-navbar').removeClass('navbar-light');
 
-            $(this).find('.rd-logo img').attr('src', src);
-            $(this).find('.rd-logo img').attr('data-src-alt', srcAlt);
+                $(this).find('.rd-logo img').attr('src', src);
+                $(this).find('.rd-logo img').attr('data-src-alt', srcAlt);
+            }
         }
     );
 
@@ -215,6 +218,7 @@
 
         previousScroll = currentScroll;
     });
+    
 
     // Initialize Tooltip
     $(function () {
