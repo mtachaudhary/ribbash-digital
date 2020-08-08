@@ -498,7 +498,7 @@ body {
 .rd-testimonial-info {
 	display: -webkit-flex;
 	display: -moz-flex;
-	display: -ms-flex;
+	display: -ms-flexbox;
 	display: -o-flex;
 	display: flex;
 	-webkit-align-items: center;
@@ -525,6 +525,8 @@ body {
 }
 
 .rd-testimonial-thumb {
+	font-weight: 700;
+    font-size: 18px;
 	-webkit-flex: 0 0 auto;
 	flex: 0 0 auto;
 	width: 62px;
@@ -532,6 +534,19 @@ body {
 	border-radius: 100%;
 	overflow: hidden;
 	margin-right: 22px;
+	color: #fff;
+	background-color: #0c9aa3;
+	text-transform: uppercase;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	-o-align-items: center;
+	align-items: center;
+	-ms-flex-pack: center;
+    justify-content: center;
 }
 
 .rd-testimonial-thumb img {
@@ -1860,7 +1875,7 @@ body {
     min-height: 720px;
 }
 .rd-yor-main-img {
-	margin-top: -610px;
+	margin-top: -550px;
 }
 
 
@@ -1895,4 +1910,18 @@ body {
 	line-height: 1.35;
 	letter-spacing: -0.5px;
 	font-size: 18px;
+}
+
+/* Thank You */
+.rd-full-screen {
+	height: 100vh;
+	padding: 130px 0 40px;
+}
+.rd-thankyou-box {
+    position: relative;
+    padding: 30px 130px 40px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.08);
+    text-align: center;
 }

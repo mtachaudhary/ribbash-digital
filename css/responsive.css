@@ -246,7 +246,13 @@
     .rd-yor-main-img {
         margin-top: -380px;
     }
+
+    /* Thank you */
+    .rd-thankyou-box {
+        padding: 30px 100px 40px;
+    }
 }
+
 
 /* Breakpoint max-width 767px */
 @media only screen and (max-width: 767.98px) {
@@ -346,6 +352,11 @@
     }
     .rd-yor-main-img {
         margin-top: -280px;
+    }
+
+    /* Thank you */
+    .rd-thankyou-box {
+        padding: 30px 80px 40px;
     }
 }
 
@@ -460,5 +471,10 @@
     }
     .rd-value figcaption {
         font-size: 16px;
+    }
+
+    /* Thank you */
+    .rd-thankyou-box {
+        padding: 30px 20px 40px;
     }
 }

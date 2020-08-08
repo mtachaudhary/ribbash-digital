@@ -23,7 +23,7 @@ $body .= "</body></html>";
 
 if (mail($to, $subject, $body, $headers)) {
     //redirect to the 'thank you' page
-    header('Location: ../index.html');
+    header('Location: ../thank-you.html');
 } else {
     echo "Email sending failed...";
 }
