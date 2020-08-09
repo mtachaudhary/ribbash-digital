@@ -45,9 +45,50 @@
     .rd-navbar .dropdown-menu .dropdown-item {
         padding: 20px 0;
     }
+
+    /* Dropdown Menu */
+    .rd-navbar .dropdown-menu div[class*=col] {
+        border-right: solid 1px rgba(2, 61, 77, 0.3);
+    }
+    .rd-navbar .dropdown-menu div[class*=col]:last-child {
+        border-right: 0;
+    }
+
+    .rd-dropdown-work .dropdown-item {
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+        opacity: 0.4;
+        transition: all 0.3s ease-in-out;
+    }
+    .rd-dropdown-work .dropdown-item span {
+        display: none;
+    }
+    .rd-dropdown-work .dropdown-item:hover {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        opacity: 1;
+    }
+    .rd-dropdown-work img {
+        height: 35px;
+    }
+
     .rd-navbar .rd-dropdown-services .dropdown-item {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: flex-start;
+        -ms-align-items: flex-start;
+        align-items: flex-start;
+        font-weight: bold;
         padding-left: 40px;
 	    padding-right: 40px;
+    }
+    .rd-dropdown-services .dropdown-item img {
+        height: 40px;
+        margin-bottom: 10px;
     }
 }
 
@@ -115,6 +156,13 @@
 /* Breakpoint max-width 991px */
 @media only screen and (max-width: 991.98px) {
     /* Navbar */
+    .rd-navmenu {
+        border-top: 1px solid #dee2e6;
+        margin-top: 10px;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
     .rd-navmenu .nav-item {
         -webkit-box-align: start;
         -ms-flex-align: start;
@@ -124,25 +172,28 @@
         -ms-flex-direction: column;
         flex-direction: column;
     }
+    .rd-navmenu .nav-item.dropdown.show > .nav-link {
+        color: #023d4d;
+        font-weight: bold;
+    }
     .rd-navmenu .rd-button {
         width: 100%;
     }
-
-    /* Services dropdown */
-    .rd-dropdown-services .dropdown-item {
-        padding-left: 0;
-        padding-right: 0;
+    .rd-navmenu .dropdown-menu {
+        border: none;
+        padding: 0;
+    }
+    .rd-navbar .dropdown-item {
+        font-size: 14px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .rd-navbar .dropdown-item img {
+        display: none;
     }
 
     .rd-testimonial-logo-wrap {
         min-height: 140px;
-    }
-
-    .rd-navbar .navbar-nav .dropdown-menu {
-        padding: 15px 0;
-    }
-    .rd-dropdown-work .dropdown-item {
-        padding: 10px 0;
     }
 
     .rd-container-1170 {
@@ -372,7 +423,7 @@
         font-size: 24px;
     }
     .rd-logo img {
-        width: 180px;
+        width: 150px;
     }
 
     /* Title */
